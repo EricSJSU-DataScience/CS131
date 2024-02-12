@@ -1,0 +1,134 @@
+    1  pwd
+    2  mkdir test
+    3  ls
+    4  rmdir test
+    5  ls
+    6  passwd
+    7  password
+    8  passwd
+    9  ping 172.20.25.9
+   10  -h
+   11  -help
+   12  man wget
+   13  wget [url]
+   14  wget --help
+   15  exit
+   16  ls
+   17  exit
+   18  wget www.github.com
+   19  ls
+   20  open index.html 
+   21  firefox index.html 
+   22  lynx index.html 
+   23  index.html
+   24  nano index.html 
+   25  ls
+   26  exit
+   27  mkdir sampleProject
+   28  ls -ltr
+   29  cd sampleProject/
+   30  touch sampleFile.txt
+   31  ls
+   32  git init
+   33  git add
+   34  git add .
+   35  ls
+   36  git status
+   37  git config --global user.email "vet.ericzhao@gmail.com"
+   38  git config --global user.email "fredkiki1986@gmail.com"
+   39  git config --global user.name "EricSJSU-DataScience"
+   40  mkdir ~/.ssh
+   41  ls
+   42  cd ../
+   43  ls
+   44  cd sampleProject
+   45  ls
+   46  mkdir ~/.ssh
+   47  ls
+   48  cd ~/.ssh &&ssh-keygen
+   49  ls -al ~/.ssh
+   50  clip < ~/.ssh/cat id_rsa.pub
+   51  clip < ~/.ssh/id_rsa.pub
+   52  clip < ~/.ssh/'cat id_rsa.pub'
+   53  exit
+   54  ls
+   55  cd .ssh
+   56  ls
+   57  cat id_rsa.pub
+   58  ./'cat id_rsa.pub'
+   59  exit
+   60  cd ~/.ssh &&ssh-keygen
+   61  cat id_rsa.pub
+   62  git remote add origin git@github.com:EricSJSU-DataScience/CS131.git
+   63  ls
+   64  rm 'cat id_rsa.pub'
+   65  ls
+   66  rm 'cat id_rsa.pub.pub'
+   67  ls
+   68  exit
+   69  ls
+   70  pwd
+   71  ls
+   72  mkdir practice
+   73  ls
+   74  cd practice/
+   75  touch test.ext
+   76  ls
+   77  touch file_a.txt
+   78  ls
+   79  vi file_a.txt 
+   80  cat file_a.txt 
+   81  wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/spotify-2023.csv
+   82  ls
+   83  wget https://drive.google.com/file/d/14hP1hWbN6Vy5Jl7Two9JUTibFFo9BA5r/view?usp=sharing
+   84  ls
+   85  wget https://drive.google.com/file/d/14hP1hWbN6Vy5Jl7Two9JUTibFFo9BA5r/view?usp=sharing
+   86  ls
+   87  rm 'view?usp=sharing'
+   88  rm 'view?usp=sharing.1' 
+   89  ls
+   90  cat spotify-2023.csv 
+   91  head spotify-2023.csv 
+   92  clear
+   93  ls
+   94  nano file_a.txt 
+   95  cat file_a.txt 
+   96  echo "this line is added by echo cmd" >> file_a.txt 
+   97  cat file_a.txt 
+   98  man cat
+   99  less file_a.txt 
+  100  more file_a.txt 
+  101  head spotify-2023.csv 
+  102  tail -15 spotify-2023.csv 
+  103  less spotify-2023.csv 
+  104  more spotify-2023.csv 
+  105  df -h
+  106  exit
+  107  ls
+  108  cd practice
+  109  ls
+  110  wget www.github.com
+  111  ls
+  112  exit
+  113  ls
+  114  cd cs131
+  115  ls
+  116  git init
+  117  mkdir worksheet1
+  118  ls
+  119  rmdir worksheet1/
+  120  ls
+  121  mkdir Worksheet1
+  122  ls
+  123  history > cmds.log
+  124  ls
+  125  wget www.github.com
+  126  history > cmds.log
+  127  ls
+  128  rm index.html.1
+  129  ls
+  130  rm index.html
+  131  ls
+  132  wget www.github.com
+  133  ls
+  134  history > cmds.log
