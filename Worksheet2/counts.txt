@@ -1,0 +1,3 @@
+  238   830 Global_YouTube_Stat_Music.txt
+The number 238 represent the line count of 'Music' category.
+The number 824 represent the line count of 'Music' category.

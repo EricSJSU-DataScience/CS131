@@ -1,0 +1,40 @@
+  455  ls
+  456  ls | grep test
+  457  ls | grep test | wc -l
+  458  grep taylor spotify-2023.csv | grep "ed sheeran"
+  459  echo "Note: grep carefully about upper case and lower case"
+  460  grep -i taylor spotify-2023.csv | grep -i "ed sheeran"
+  461  echo "note: .(current dir) ..(previous dir)"
+  462  ls -l
+  463  echo "note: permissions in file systems[chmod] r=4 w=2 x=1, rw=6, rwx=7"
+  464  ls -l
+  465  chmod 666 file_a.txt 
+  466  ls -l
+  467  echo "note: 3 basic levels of users owner/groups/others"
+  468  chmod o-rw file_a.txt 
+  469  ls -l
+  470  echo "note: chmod [a/u/g/o +/- r/w/x] filename"
+  471  ls -la >> file_a.txt 
+  472  vi file_a.txt 
+  473  clear
+  474  history | tail -n 20
+  475  ls -l
+  476  cd cs131
+  477  ls -l
+  478  mkdir Worksheet2
+  479  cd Worksheet2/
+  480  wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/Global%20YouTube%20Statistics.csv
+  481  ls -l
+  482  vi Global\ YouTube\ Statistics.csv 
+  483  grep 'United States' Global\ YouTube\ Statistics.csv 
+  484  grep 'United States' Global\ YouTube\ Statistics.csv > Global_YouTube_Stat_US.txt
+  485  ls -l
+  486  grep 'Music' Global\ YouTube\ Statistics.csv 
+  487  grep 'Music' Global\ YouTube\ Statistics.csv > Global_YouTube_Stat_Music.txt
+  488  ls -l
+  489  man wc
+  490  wc -lw Global_YouTube_Stat_Music.txt > counts.txt
+  491  ls
+  492  vi counts.txt 
+  493  cat counts.txt 
+  494  history | tail -n 40 > cmds.log
