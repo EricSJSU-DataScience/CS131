@@ -1,0 +1,1241 @@
+Script started on 2024-02-22 17:12:28-05:00
+bash-4.4$ mkdir Assignment1
+bash-4.4$ ls -l
+total 324
+drwxrwxr-x 2 ericsp24 ericsp24   4096 Feb 22 17:13 Assignment1
+-rw-rw-r-- 1 ericsp24 ericsp24   2870 Feb 11 23:03 cmds.log
+-rw-rw-r-- 1 ericsp24 ericsp24 208254 Feb 11 23:03 index.html
+-rw-rw-r-- 1 ericsp24 ericsp24 106270 Feb 11 23:06 spotify-2023.csv
+-rw-rw-r-- 1 ericsp24 ericsp24      0 Feb 22 17:12 typescript
+drwxrwxr-x 2 ericsp24 ericsp24   4096 Feb 12 11:57 Worksheet1
+drwxrwxr-x 2 ericsp24 ericsp24   4096 Feb 20 00:05 Worksheet2
+bash-4.4$ cd Assignment1/
+bash-4.4$ touch Assignment1.txt
+bash-4.4$ ls -l
+total 0
+-rw-rw-r-- 1 ericsp24 ericsp24 0 Feb 22 17:13 Assignment1.txt
+bash-4.4$ echo "question 1" >> Assignment1.txt 
+bash-4.4$ echo "I use mkdir [foldername][C[C[1@'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C' to create dires[Kctory" >> Assignment1.txt 
+bash-4.4$ nano Assignment1.txt 
+[?1049h[22;0;0t[1;32r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[30;38H(B[0;7m[ Reading File ](B[m[30;44H(B[0;7m 2 lines ](B[m[H(B[0;7m  GNU nano 2.9.8                         Assignment1.txt                                   [1;90H(B[m[31d(B[0;7m^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos[32d(B[0;7m^X(B[m Exit[32;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line[30d[3d[39;49m(B[mquestion 1[4dI use 'mkdir [foldername]' to create directory[A[?12l[?25h[?25l[?12l[?25h[?25l[4d[?12l[?25h[?25l[5d[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[30d[J[32;91H[?12l[?25h[32;1H[?1049l[23;0;0t[?1l>bash-4.4$ echo "question 2" >> Assignment1.txt 
+bash-4.4$ echo S[K$SHELL
+/bin/bash
+bash-4.4$ echo "[K$SHELL >> Assignment1.txt 
+bash-4.4$ echo "I useecho[K[K[K[K[Ke 'echo $SHELL;[K'" >> Assignment1.txt 
+bash-4.4$ echo "question 3"[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Knano Assignment1.txt 
+[?1049h[22;0;0t[1;32r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[30;38H(B[0;7m[ Reading File ](B[m[30;44H(B[0;7m 5 lines ](B[m[H(B[0;7m  GNU nano 2.9.8                         Assignment1.txt                                   [1;90H(B[m[31d(B[0;7m^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos[32d(B[0;7m^X(B[m Exit[32;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line[30d[3d[39;49m(B[mquestion 1[4dI use 'mkdir [foldername]' to create directory[5dquestion 2[6d/bin/bash[7dI use 'echo /bin/bash'[3d[?12l[?25h[?25l[4d[?12l[?25h[?25l[5d[?12l[?25h[?25l[1;82H(B[0;7mModified(B[m[5;29r[5;1HM[1;32r[6;1H[?12l[?25h[?25l[7d[?12l[?25h[?25l[8d[?12l[?25h[?25lI[?12l[?25h[?25l [?12l[?25h[?25lu[?12l[?25h[?25ls[?12l[?25h[?25le[?12l[?25h[?25l [?12l[?25h[?25l'[?12l[?25h[?25l	[?12l[?25h[?25lc[?12l[?25h[?25lh[?12l[?25h[?25lo[?12l[?25h[?25l [?12l[?25h[?25l$/bin/bash'[8;14H[?12l[?25h[?25lS/bin/bash'[8;15H[?12l[?25h[?25lH/bin/bash'[8;16H[?12l[?25h[?25lE/bin/bash'[8;17H[?12l[?25h[?25lL/bin/bash'[8;18H[?12l[?25h[?25l[ZLL/bin/bash'[8;19H[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[30d[K[8;19H[?12l[?25h[?25l[1P[?12l[?25h[?25lbash'[K[19G[?12l[?25h[?25lash'[K[?12l[?25h[?25lsh'[K[?12l[?25h[?25lh'[K[?12l[?25h[?25l'[K[?12l[?25h[?25l'[?12l[?25h[?25l[31;16H       (B[0;7mM-D(B[m DOS Format        (B[0;7mM-A(B[m Append            (B[0;7mM-B(B[m Backup File[K[32;2H(B[0;7mC(B[m Cancel[16G       (B[0;7mM-M(B[m Mac Format        (B[0;7mM-P(B[m Prepend           (B[0;7m^T(B[m To Files[K[30d(B[0;7mFile Name to Write: Assignment1.txt                                                        [30;1H(B[m[30;36H[?12l[?25h[?25l[K[1;90H[1;82H(B[0;7m        (B[m[30;38H(B[0;7m[ Wrote 6 lines ](B[m[31;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos[32;2H(B[0;7mX(B[m Exit  [16G(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line[30d[8;20H[?12l[?25h[?25l[30d[J[32;91H[?12l[?25h[32;1H[?1049l[23;0;0t[?1l>bash-4.4$ echo -e "\nquestion 4[K3" >> Assignment1.txt 
+bash-4.4$ pwd
+/mnt/scratch/SP24_CS131_Jyotika/ericsp24/cs131/Assignment1
+bash-4.4$ pwd >> Assignment1.txt 
+bash-4.4$ nano Assignment1.txt 
+[?1049h[22;0;0t[1;32r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[30;38H(B[0;7m[ Reading File ](B[m[30;44H(B[0;7m 9 lines ](B[m[H(B[0;7m  GNU nano 2.9.8                         Assignment1.txt                                   [1;90H(B[m[31d(B[0;7m^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos[32d(B[0;7m^X(B[m Exit[32;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line[30d[3d[39;49m(B[mquestion 1[4dI use 'mkdir [foldername]' to create directory[6dquestion 2[7d/bin/bash[8dI use 'echo $SHELL'[10dquestion 3[11d/mnt/scratch/SP24_CS131_Jyotika/ericsp24/cs131/Assignment1[3d[?12l[?25h[?25l[4d[?12l[?25h[?25l[5d[?12l[?25h[?25l[6d[?12l[?25h[?25l[7d[?12l[?25h[?25l[8d[?12l[?25h[?25l[9d[?12l[?25h[?25l[10d[?12l[?25h[?25l[11d[?12l[?25h[?25l[12d[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[A[?12l[?25h[?25l[1;82H(B[0;7mModified(B[m[11d[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[30d[K[11d[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25lment1[K[?12l[?25h[?25lent1[K[?12l[?25h[?25lnt1[K[?12l[?25h[?25lt1[K[?12l[?25h[?25l1[K[?12l[?25h[?25l[K[?12l[?25h[?25l[?12l[?25h[?25l[10;11H[?12l[?25h[?25l[31;16H       (B[0;7mM-D(B[m DOS Format        (B[0;7mM-A(B[m Append            (B[0;7mM-B(B[m Backup File[K[32;2H(B[0;7mC(B[m Cancel[16G       (B[0;7mM-M(B[m Mac Format        (B[0;7mM-P(B[m Prepend           (B[0;7m^T(B[m To Files[K[30d(B[0;7mFile Name to Write: Assignment1.txt                                                        [30;1H(B[m[30;36H[?12l[?25h[?25l[K[1;90H[1;82H(B[0;7m        (B[m[30;38H(B[0;7m[ Wrote 8 lines ](B[m[31;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos[32;2H(B[0;7mX(B[m Exit  [16G(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line[30d[10;11H[?12l[?25h[?25l[30d[J[32;91H[?12l[?25h[32;1H[?1049l[23;0;0t[?1l>bash-4.4$ echo $HOME
+/mnt/scratch/SP24_CS131_Jyotika/ericsp24
+bash-4.4$ echo $HOME >> Assignment1.txt 
+bash-4.4$ echo "I use echo $HOME" >> Assignment1.txt 
+bash-4.4$ nano Assignment1.txt 
+[?1049h[22;0;0t[1;32r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[30;38H(B[0;7m[ Reading File ](B[m[30;44H(B[0;7m 10 lines ](B[m[H(B[0;7m  GNU nano 2.9.8                         Assignment1.txt                                   [1;90H(B[m[31d(B[0;7m^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos[32d(B[0;7m^X(B[m Exit[32;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line[30d[3d[39;49m(B[mquestion 1[4dI use 'mkdir [foldername]' to create directory[6dquestion 2[7d/bin/bash[8dI use 'echo $SHELL'[10dquestion 3[11d/mnt/scratch/SP24_CS131_Jyotika/ericsp24[12dI use echo /mnt/scratch/SP24_CS131_Jyotika/ericsp24[3d[?12l[?25h[?25l[4d[?12l[?25h[?25l[5d[?12l[?25h[?25l[6d[?12l[?25h[?25lq[?12l[?25h[?25lu[?12l[?25h[?25le[?12l[?25h[?25ls[?12l[?25h[?25lt[?12l[?25h[?25li[?12l[?25h[?25lo[?12l[?25h[?25l	[?12l[?25h[?25l [?12l[?25h[?25l2[?12l[?25h[?25l[7d[?12l[?25h[?25l/[?12l[?25h[?25lb[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[6;11H[?12l[?25h[?25l[1;82H(B[0;7mModified(B[m[6;11H.[?12l[?25h[?25l1[?12l[?25h[?25l[7;10H[?12l[?25h[?25l[8;13H[?12l[?25h[?25l[9d[?12l[?25h[?25l[10;11H[?12l[?25h[?25l [30d[K[10;10H[?12l[?25h[?25l2[?12l[?25h[?25l.[?12l[?25h[?25l2[?12l[?25h[?25l[11d[?12l[?25h[?25l[12d[?12l[?25h[?25l[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25lcsp24[K[12G[?12l[?25h[?25lsp24[K[?12l[?25h[?25lp24[K[?12l[?25h[?25l24[K[?12l[?25h[?25l4[K[?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l	[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l'echo[Z[?12l[?25h[?25l	[?12l[?25h[?25lc[?12l[?25h[?25lh[?12l[?25h[?25lo[?12l[?25h[?25l [?12l[?25h[?25l[13d[?12l[?25h[?25l[12;13H[?12l[?25h[?25l$[?12l[?25h[?25lH[?12l[?25h[?25lO[?12l[?25h[?25lM[?12l[?25h[?25lE[?12l[?25h[?25l'[?12l[?25h[?25l[13d[?12l[?25h[?25l[14d[?12l[?25h[?25l[A[?12l[?25h[?25l[12;19H[?12l[?25h[?25l[31;16H       (B[0;7mM-D(B[m DOS Format        (B[0;7mM-A(B[m Append            (B[0;7mM-B(B[m Backup File[K[32;2H(B[0;7mC(B[m Cancel[16G       (B[0;7mM-M(B[m Mac Format        (B[0;7mM-P(B[m Prepend           (B[0;7m^T(B[m To Files[K[30d(B[0;7mFile Name to Write: Assignment1.txt                                                        [30;1H(B[m[30;36H[?12l[?25h[?25l[K[1;90H[1;82H(B[0;7m        (B[m[30;37H(B[0;7m[ Wrote 10 lines ](B[m[31;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos[32;2H(B[0;7mX(B[m Exit  [16G(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line[30d[12;19H[?12l[?25h[?25l[30d[J[32;91H[?12l[?25h[32;1H[?1049l[23;0;0t[?1l>bash-4.4$ echo "[K-e "\nquestion 3" >> Assignment1.txt 
+bash-4.4$ id -u
+1212
+bash-4.4$ id -u >> Assignment1.txt 
+bash-4.4$ echo -e "I use 'id-[K -u' to find UID" >> Assignment1.txt 
+bash-4.4$ groups
+ericsp24 S78
+bash-4.4$ groups >> Assignment1.txt 
+bash-4.4$ echo -e "I use 'groups' to find groups fof [K[K[K[Kof usr[Ker" >> Assignment1.txt 
+bash-4.4$ echo -e"[K " [KI[KIn ore[Kder to find out command used, I can use 'history' to list all [K[K[K[K[K command h istory.\nI can modify 'history [C[C[1@c[1@m[1P[1@o[1@m[1@m[1@a[1@n[1@d[1@ [1@s[1@u[1@c[1@h[1@ [1@a[1@s[1@ [C[C[C[C[C[C[C[C[C| grep [keyword];[K' to list by keyword.\na[KAt [K[K[KI can  use [K[K[K[Kpress CTRL + R and search command used." >> Assignment1.txt 
+bash-4.4$ nano Assignment1.txt 
+[?1049h[22;0;0t[1;32r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[30;38H(B[0;7m[ Reading File ](B[m[30;44H(B[0;7m 19 lines ](B[m[H(B[0;7m  GNU nano 2.9.8                         Assignment1.txt                                   [1;90H(B[m[31d(B[0;7m^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos[32d(B[0;7m^X(B[m Exit[32;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line[30d[3d[39;49m(B[mquestion 1[4dI use 'mkdir [foldername]' to create directory[6dquestion 2.1[7d/bin/bash[8dI use 'echo $SHELL'[10dquestion 2.2[11d/mnt/scratch/SP24_CS131_Jyotika/ericsp24[12dI use 'echo $HOME'[14dquestion 3[15d1212[16dI use 'id -u' to find UID[17dericsp24 S78[18dI use 'groups' to find groups of user[19dIn order to find out command used, I can use 'history' to list command history.[20dI can modify command such as 'history | grep [keyword]' to list by keyword.[21dI can press CTRL + R and search command used.[3d[?12l[?25h[?25l[30d[J[32;91H[?12l[?25h[32;1H[?1049l[23;0;0t[?1l>bash-4.4$ echo -e "\nquestion 4" >> Assignment1.txt 
+bash-4.4$ mkdir D[KmyDir
+bash-4.4$ ls
+Assignment1.txt  myDir
+bash-4.4$ chomon[K[K[K[Kmon[Kd u-w myDir/
+bash-4.4$ echo "After use 'chmod [K' changed permission: " >> Assignment1.txt 
+bash-4.4$ ls -l >> Assignment1.txt 
+bash-4.4$ cd myDir/
+bash-4.4$ ls -[K[K[K[Kecho "Yes, I can 'cd [K' into this [K[K[K[K[KmyDir directory." >> ../Assignment1.txt 
+bash-4.4$ ls -l
+total 0
+bash-4.4$ echo "Yes [K, I can ls[K[K'ls' and ls [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kls 
+bash-4.4$ echo "Yes, I can 'ls' and 'ls -l' myDir directory.:[K" >> ../Assignment1.txt 
+bash-4.4$ touch temp.txt
+touch: cannot touch 'temp.txt': Permission denied
+bash-4.4$ echo " [KNo, I can't createfi[K[K file in my [KDir de[Kirectory. It show me error message that s aid 'Permission denied'.[K which [K[K[K[K[K[K[K which [K[K[K[K[K[K[K. I should[K[K[K[K[K[K[K[KSince I remove write pers[Kmission in thi[K[K[K[K[K[Kfor this directory, I won't be abl e to write [K." >> ../Assignment1.txt 
+bash-4.4$ echo "[K-e "\nquestion 5" >> A[K../Assignment1.txt 
+bash-4.4$ cd ../
+bash-4.4$ ls -l
+total 8
+-rw-rw-r-- 1 ericsp24 ericsp24  924 Feb 22 17:36 Assignment1.txt
+dr-xrwxr-x 2 ericsp24 ericsp24 4096 Feb 22 17:29 myDir
+bash-4.4$ mkdir myDir2 myDir3
+bash-4.4$ ls -l [K
+total 16
+-rw-rw-r-- 1 ericsp24 ericsp24  924 Feb 22 17:36 Assignment1.txt
+dr-xrwxr-x 2 ericsp24 ericsp24 4096 Feb 22 17:29 myDir
+drwxrwxr-x 2 ericsp24 ericsp24 4096 Feb 22 17:37 myDir2
+drwxrwxr-x 2 ericsp24 ericsp24 4096 Feb 22 17:37 myDir3
+bash-4.4$ ls -l >> Assignment1.txt 
+bash-4.4$ nano Assignment1.txt 
+[?1049h[22;0;0t[1;32r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[30;38H(B[0;7m[ Reading File ](B[m[30;44H(B[0;7m 35 lines ](B[m[H(B[0;7m  GNU nano 2.9.8                         Assignment1.txt                                   [1;90H(B[m[31d(B[0;7m^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos[32d(B[0;7m^X(B[m Exit[32;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line[30d[3d[39;49m(B[mquestion 1[4dI use 'mkdir [foldername]' to create directory[6dquestion 2.1[7d/bin/bash[8dI use 'echo $SHELL'[10dquestion 2.2[11d/mnt/scratch/SP24_CS131_Jyotika/ericsp24[12dI use 'echo $HOME'[14dquestion 3[15d1212[16dI use 'id -u' to find UID[17dericsp24 S78[18dI use 'groups' to find groups of user[19dIn order to find out command used, I can use 'history' to list command history.[20dI can modify command such as 'history | grep [keyword]' to list by keyword.[21dI can press CTRL + R and search command used.[23dquestion 4[24dAfter use 'chmod' changed permission:[25dtotal 8[26d-rw-rw-r-- 1 ericsp24 ericsp24  523 Feb 22 17:30 Assignment1.txt[27ddr-xrwxr-x 2 ericsp24 ericsp24 4096 Feb 22 17:29 myDir[28dYes, I can 'cd' into myDir directory.[29dYes, I can 'ls' and 'ls -l' myDir directory.[3d[?12l[?25h[?25l[4d[?12l[?25h[?25l[5d[?12l[?25h[?25l[6d[?12l[?25h[?25l[7d[?12l[?25h[?25l[8d[?12l[?25h[?25l[9d[?12l[?25h[?25l[10d[?12l[?25h[?25l[11d[?12l[?25h[?25l[12d[?12l[?25h[?25l[13d[?12l[?25h[?25l[14d[?12l[?25h[?25l[15d[?12l[?25h[?25l[16d[?12l[?25h[?25l[17d[?12l[?25h[?25l[18d[?12l[?25h[?25l[19d[?12l[?25h[?25l[20d[?12l[?25h[?25l[21d[?12l[?25h[?25l[22d[?12l[?25h[?25l[23d[?12l[?25h[?25l[24d[?12l[?25h[?25l[25d[?12l[?25h[?25l[26d[?12l[?25h[?25l[27d[?12l[?25h[?25l[28d[?12l[?25h[?25l[30d[K[A[?12l[?25h[?25l7[3;30r8[30d[14S[1;32r[16;1HNo, I can't create file in myDir directory. It show me error message that said 'Permission$[18;1Hquestion 5[19dtotal 16[20d-rw-rw-r-- 1 ericsp24 ericsp24  924 Feb 22 17:36 Assignment1.txt[21ddr-xrwxr-x 2 ericsp24 ericsp24 4096 Feb 22 17:29 myDir[22ddrwxrwxr-x 2 ericsp24 ericsp24 4096 Feb 22 17:37 myDir2[23ddrwxrwxr-x 2 ericsp24 ericsp24 4096 Feb 22 17:37 myDir3[16d[?12l[?25h[?25l[17d[?12l[?25h[?25l[18d[?12l[?25h[?25l[19d[?12l[?25h[?25l[20d[?12l[?25h[?25l[21d[?12l[?25h[?25l[22d[?12l[?25h[?25l[23d[?12l[?25h[?25l[24d[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[A[?12l[?25h[?25l[31d[J[32;91H[?12l[?25h[32;1H[?1049l[23;0;0t[?1l>bash-4.4$ echo -e "\nquestion 5[K6.1" >> ../[K[K[KAssignment1.txt 
+bash-4.4$ touch myFile.txt
+bash-4.4$ mv myFile.txt ../myDir3/[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kls -l
+total 16
+-rw-rw-r-- 1 ericsp24 ericsp24 1179 Feb 22 17:39 Assignment1.txt
+dr-xrwxr-x 2 ericsp24 ericsp24 4096 Feb 22 17:29 myDir
+drwxrwxr-x 2 ericsp24 ericsp24 4096 Feb 22 17:37 myDir2
+drwxrwxr-x 2 ericsp24 ericsp24 4096 Feb 22 17:37 myDir3
+-rw-rw-r-- 1 ericsp24 ericsp24    0 Feb 22 17:39 myFile.txt
+bash-4.4$ rm myf[KFile.txt
+bash-4.4$ ls -l
+total 16
+-rw-rw-r-- 1 ericsp24 ericsp24 1179 Feb 22 17:39 Assignment1.txt
+dr-xrwxr-x 2 ericsp24 ericsp24 4096 Feb 22 17:29 myDir
+drwxrwxr-x 2 ericsp24 ericsp24 4096 Feb 22 17:37 myDir2
+drwxrwxr-x 2 ericsp24 ericsp24 4096 Feb 22 17:37 myDir3
+bash-4.4$ cd myDir2/
+bash-4.4$ touch myFile.txt
+bash-4.4$ ls -l
+total 0
+-rw-rw-r-- 1 ericsp24 ericsp24 0 Feb 22 17:40 myFile.txt
+bash-4.4$ t[Kmv myFile.txt ../myDir3/
+bash-4.4$ ls -l
+total 0
+bash-4.4$ ls -l ../My[K[KmyDir3/
+total 0
+-rw-rw-r-- 1 ericsp24 ericsp24 0 Feb 22 17:40 myFile.txt
+bash-4.4$ ls -l ../myDir3/ >> A[K../Assignment1.txt 
+bash-4.4$ echo -e "\nqe[Kuestion6.2" >> ../Assignment1.txt 
+bash-4.4$ d[Kfree
+              total        used        free      shared  buff/cache   available
+Mem:       73080640    31491456    22831232     3673664    18757952    36422144
+Swap:       4218816           0     4218816
+bash-4.4$ man free
+[?1049h[22;0;0t[?1h=FREE(1)                               User Commands                              FREE(1)[m
+[m
+[1mNAME[0m[m
+       free - Display amount of free and used memory in the system[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mfree [22m[[4moptions[24m][m
+[m
+[1mDESCRIPTION[0m[m
+       [1mfree  [22mdisplays  the total amount of free and used physical and swap memory in the[m
+       system, as well as the buffers and caches used by the kernel. The information  is[m
+       gathered by parsing /proc/meminfo. The displayed columns are:[m
+[m
+       [1mtotal  [22mTotal installed memory (MemTotal and SwapTotal in /proc/meminfo)[m
+[m
+       [1mused   [22mUsed memory (calculated as [1mtotal [22m- [1mfree [22m- [1mbuffers [22m- [1mcache[22m)[m
+[m
+       [1mfree   [22mUnused memory (MemFree and SwapFree in /proc/meminfo)[m
+[m
+       [1mshared [22mMemory used (mostly) by tmpfs (Shmem in /proc/meminfo)[m
+[m
+       [1mbuffers[0m[m
+              Memory used by kernel buffers (Buffers in /proc/meminfo)[m
+[m
+       [1mcache  [22mMemory  used  by  the  page  cache  and  slabs (Cached and SReclaimable in[m
+              /proc/meminfo)[m
+[m
+       [1mbuff/cache[0m[m
+              Sum of [1mbuffers [22mand [1mcache[0m[m
+[m
+       [1mavailable[0m[m
+[7m Manual page free(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Estimation of how much memory is available for starting new  applications,[m
+[7m Manual page free(1) line 2 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              without  swapping.  Unlike  the data provided by the [1mcache [22mor [1mfree [22mfields,[m
+[7m Manual page free(1) line 3 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              this field takes into account page cache and also that not all reclaimable[m
+[7m Manual page free(1) line 4 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              memory  slabs will be reclaimed due to items being in use (MemAvailable in[m
+[7m Manual page free(1) line 5 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              /proc/meminfo, available on kernels 3.14,  emulated  on  kernels  2.6.27+,[m
+[7m Manual page free(1) line 6 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              otherwise the same as [1mfree[22m)[m
+[7m Manual page free(1) line 7 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page free(1) line 8 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mOPTIONS[0m[m
+[7m Manual page free(1) line 9 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-b[22m, [1m--bytes[0m[m
+[7m Manual page free(1) line 10 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Display the amount of memory in bytes.[m
+[7m Manual page free(1) line 11 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page free(1) line 12 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-k[22m, [1m--kibi[0m[m
+[7m Manual page free(1) line 13 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Display the amount of memory in kibibytes.  This is the default.[m
+[7m Manual page free(1) line 14 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page free(1) line 15 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-m[22m, [1m--mebi[0m[m
+[7m Manual page free(1) line 16 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Display the amount of memory in mebibytes.[m
+[7m Manual page free(1) line 17 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page free(1) line 18 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-g[22m, [1m--gibi[0m[m
+[7m Manual page free(1) line 19 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Display the amount of memory in gibibytes.[m
+[7m Manual page free(1) line 20 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page free(1) line 21 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--tebi [22mDisplay the amount of memory in tebibytes.[m
+[7m Manual page free(1) line 22 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page free(1) line 23 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--pebi [22mDisplay the amount of memory in pebibytes.[m
+[7m Manual page free(1) line 24 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page free(1) line 25 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--kilo [22mDisplay the amount of memory in kilobytes. Implies --si.[m
+[7m Manual page free(1) line 26 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page free(1) line 27 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--mega [22mDisplay the amount of memory in megabytes. Implies --si.[m
+[7m Manual page free(1) line 28 (press h for help or q to quit)[27m[K[K [KESCESC[Kqq[K[7m Manual page free(1) line 28 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0tbash-4.4$ free -m
+              total        used        free      shared  buff/cache   available
+Mem:          71367       30763       22285        3587       18318       35557
+Swap:          4119           0        4119
+bash-4.4$ free -m >> ../Assignment1.txt 
+bash-4.4$ nano ../Assignment1.txt 
+[?1049h[22;0;0t[1;32r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[30;38H(B[0;7m[ Reading File ](B[m[30;44H(B[0;7m 44 lines ](B[m[H(B[0;7m  GNU nano 2.9.8                       ../Assignment1.txt                                  [1;90H(B[m[31d(B[0;7m^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos[32d(B[0;7m^X(B[m Exit[32;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line[30d[3d[39;49m(B[mquestion 1[4dI use 'mkdir [foldername]' to create directory[6dquestion 2.1[7d/bin/bash[8dI use 'echo $SHELL'[10dquestion 2.2[11d/mnt/scratch/SP24_CS131_Jyotika/ericsp24[12dI use 'echo $HOME'[14dquestion 3[15d1212[16dI use 'id -u' to find UID[17dericsp24 S78[18dI use 'groups' to find groups of user[19dIn order to find out command used, I can use 'history' to list command history.[20dI can modify command such as 'history | grep [keyword]' to list by keyword.[21dI can press CTRL + R and search command used.[23dquestion 4[24dAfter use 'chmod' changed permission:[25dtotal 8[26d-rw-rw-r-- 1 ericsp24 ericsp24  523 Feb 22 17:30 Assignment1.txt[27ddr-xrwxr-x 2 ericsp24 ericsp24 4096 Feb 22 17:29 myDir[28dYes, I can 'cd' into myDir directory.[29dYes, I can 'ls' and 'ls -l' myDir directory.[3d[?12l[?25h[?25l[4d[?12l[?25h[?25l[AYes, I can 'cd' into myDir directory.[4dYes, I can 'ls' and 'ls -l' myDir directory.[K[5dNo, I can't create file in myDir directory. It show me error message that said 'Permission$[6;1H[K[7dquestion 5[8dtotal 16[K[9d-rw-rw-r-- 1 ericsp24 ericsp24  924 Feb 22 17:36 Assignment1.txt[10ddr-xrwxr-x 2 ericsp24 ericsp24 4096 Feb 22 17:29 myDir[11ddrwxrwxr-x 2 ericsp24 ericsp24 4096 Feb 22 17:37 myDir2[12ddrwxrwxr-x 2 ericsp24 ericsp24 4096 Feb 22 17:37 myDir3[14;10H6.1[15dtotal 0[16d-rw-rw-r-- 1 ericsp24 ericsp24 0 Feb 22 17:40 myFile.txt[17d[K[18dquestion6.2[K[19d  [1K total        used        free      shared  buff/cache   available[20dMem:          71367       30739       22310        3587       18318       35582[21dSwap:          4119           0        4119[K[23d[K[24d[K[25d[K[26d[K[27d[K[28d[K[29d[K[3d[?12l[?25h[?25l[4d[?12l[?25h[?25l[5d[?12l[?25h[?25l[6d[?12l[?25h[?25l[7d[?12l[?25h[?25l[8d[?12l[?25h[?25l[9d[?12l[?25h[?25l[10d[?12l[?25h[?25l[11d[?12l[?25h[?25l[12d[?12l[?25h[?25l[13d[?12l[?25h[?25l[14d[?12l[?25h[?25l[15d[?12l[?25h[?25l[16d[?12l[?25h[?25l[17d[?12l[?25h[?25l[18d[?12l[?25h[?25l[19d[?12l[?25h[?25l[20d[?12l[?25h[?25lM[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[18d[?12l[?25h[?25lq[?12l[?25h[?25l[30d[K[18dqu[?12l[?25h[?25le[?12l[?25h[?25ls[?12l[?25h[?25lt[?12l[?25h[?25li[?12l[?25h[?25lo[?12l[?25h[?25l	[?12l[?25h[?25l[1;82H(B[0;7mModified(B[m[18;9H 6.2[?12l[?25h[?25l[31;16H       (B[0;7mM-D(B[m DOS Format        (B[0;7mM-A(B[m Append            (B[0;7mM-B(B[m Backup File[K[32;2H(B[0;7mC(B[m Cancel[16G       (B[0;7mM-M(B[m Mac Format        (B[0;7mM-P(B[m Prepend           (B[0;7m^T(B[m To Files[K[30d(B[0;7mFile Name to Write: ../Assignment1.txt                                                     [30;1H(B[m[30;39H[?12l[?25h[?25l[K[1;90H[1;82H(B[0;7m        (B[m[30;37H(B[0;7m[ Wrote 44 lines ](B[m[31;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos[32;2H(B[0;7mX(B[m Exit  [16G(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line[30d[18;10H[?12l[?25h[?25l[30d[J[32;91H[?12l[?25h[32;1H[?1049l[23;0;0t[?1l>bash-4.4$ e[Kcd ../
+bash-4.4$ ls -l
+total 16
+-rw-rw-r-- 1 ericsp24 ericsp24 1462 Feb 22 17:44 Assignment1.txt
+dr-xrwxr-x 2 ericsp24 ericsp24 4096 Feb 22 17:29 myDir
+drwxrwxr-x 2 ericsp24 ericsp24 4096 Feb 22 17:41 myDir2
+drwxrwxr-x 2 ericsp24 ericsp24 4096 Feb 22 17:41 myDir3
+bash-4.4$ echo "[K-e "\nquestion 9" >> Assignment1.txt 
+bash-4.4$ ls -l \etc\
+> 
+ls: cannot access 'etc': No such file or directory
+bash-4.4$ cat /etc/os-release
+NAME="Red Hat Enterprise Linux"
+VERSION="8.6 (Ootpa)"
+ID="rhel"
+ID_LIKE="fedora"
+VERSION_ID="8.6"
+PLATFORM_ID="platform:el8"
+PRETTY_NAME="Red Hat Enterprise Linux 8.6 (Ootpa)"
+ANSI_COLOR="0;31"
+CPE_NAME="cpe:/o:redhat:enterprise_linux:8::baseos"
+HOME_URL="https://www.redhat.com/"
+DOCUMENTATION_URL="https://access.redhat.com/documentation/red_hat_enterprise_linux/8/"
+BUG_REPORT_URL="https://bugzilla.redhat.com/"
+
+REDHAT_BUGZILLA_PRODUCT="Red Hat Enterprise Linux 8"
+REDHAT_BUGZILLA_PRODUCT_VERSION=8.6
+REDHAT_SUPPORT_PRODUCT="Red Hat Enterprise Linux"
+REDHAT_SUPPORT_PRODUCT_VERSION="8.6"
+bash-4.4$ ls -l /etc/
+total 1356
+-rw-r--r--.  1 root root       16 Jan  5  2023 adjtime
+-rw-r--r--.  1 root root     1529 Apr 15  2020 aliases
+drwxr-xr-x.  2 root root     4096 Aug  1  2023 alternatives
+-rw-r--r--.  1 root root      541 Sep 30  2021 anacrontab
+drwxr-xr-x   4 root root     4096 Aug  1  2023 asciidoc
+-rw-r--r--.  1 root root        1 Aug 12  2018 at.deny
+drwxr-x---.  4 root root      100 Jan  5  2023 audit
+drwxr-xr-x.  3 root root      228 Jan  5  2023 authselect
+drwxr-xr-x.  2 root root      135 Jan  5  2023 bash_completion.d
+-rw-r--r--.  1 root root     3019 Apr 15  2020 bashrc
+-rw-r--r--.  1 root root      545 Jan  5  2023 bindresvport.blacklist
+-rw-r--r--.  1 root root      535 Jan  5  2023 bindresvport.blacklist.rsct.save
+drwxr-xr-x.  2 root root       26 Jan  5  2023 binfmt.d
+drwxr-xr-x.  2 root root        6 Jul 27  2021 chkconfig.d
+-rw-r--r--.  1 root root     1083 Jun 15  2021 chrony.conf
+-rw-r-----.  1 root chrony    540 May 12  2021 chrony.keys
+drwxr-xr-x.  2 root root       26 Jun  3  2022 cifs-utils
+drwxr-xr-x.  4 root root       82 Mar 30  2023 cloud
+drwxr-xr-x.  2 root root        6 Jan  5  2023 cni
+drwxr-xr-x.  4 root root       42 Sep 23  2022 cockpit
+drwxr-xr-x.  6 root root      139 Jan  5  2023 containers
+drwxr-xr-x.  2 root root       39 Jan  5  2023 cron.d
+drwxr-xr-x.  2 root root       44 Jan  5  2023 cron.daily
+-rw-r--r--.  1 root root        0 Sep 30  2021 cron.deny
+drwxr-xr-x.  2 root root       22 Jan  5  2023 cron.hourly
+drwxr-xr-x.  2 root root        6 Jan  8  2021 cron.monthly
+-rw-r--r--.  1 root root      451 Jan  8  2021 crontab
+drwxr-xr-x.  2 root root        6 Jan  8  2021 cron.weekly
+drwxr-xr-x.  6 root root       81 Jan  5  2023 crypto-policies
+-rw-------.  1 root root        0 Jan  5  2023 crypttab
+-rw-r--r--.  1 root root     1629 Apr 15  2020 csh.cshrc
+-rw-r--r--.  1 root root     1078 Apr 15  2020 csh.login
+-rw-rw-r--   1 root root      129 May  4  2023 ct_node_id
+drwxr-xr-x.  4 root root       78 Jun 16  2022 dbus-1
+drwxr-xr-x.  3 root root       16 Jan  5  2023 dconf
+drwxr-xr-x.  2 root root       33 Jan  5  2023 default
+drwxr-xr-x.  2 root root       40 Jan  5  2023 depmod.d
+drwxr-xr-x.  4 root root       53 Jan  5  2023 dhcp
+-rw-r--r--.  1 root root     4536 Jul  9  2021 DIR_COLORS
+-rw-r--r--.  1 root root     5214 Jul  9  2021 DIR_COLORS.256color
+-rw-r--r--.  1 root root     4618 Jul  9  2021 DIR_COLORS.lightbgcolor
+drwxr-xr-x.  8 root root      128 Jan  5  2023 dnf
+-rw-r--r--.  1 root root      117 May 23  2022 dracut.conf
+drwxr-xr-x.  2 root root        6 May 23  2022 dracut.conf.d
+drwxr-xr-x   3 root root       37 Aug  1  2023 egl
+-rw-r--r--.  1 root root        0 Apr 15  2020 environment
+-rw-r--r--.  1 root root     1362 Sep 10  2018 ethertypes
+-rw-r--r--.  1 root root        0 Sep 10  2018 exports
+lrwxrwxrwx.  1 root root       56 Jul 12  2021 favicon.png -> /usr/share/icons/hicolor/16x16/apps/fedora-logo-icon.png
+-rw-r--r--.  1 root root       66 Sep 10  2018 filesystems
+drwxr-x---.  8 root root      149 Jan  5  2023 firewalld
+drwxr-xr-x.  3 root root       38 Jan  5  2023 fonts
+-rw-r--r--.  1 root root       20 Jan 13  2021 fprintd.conf
+-rw-r--r--   1 root root      639 May  4  2023 fstab
+-rw-r--r--.  1 root root       38 Feb 24  2022 fuse.conf
+drwxr-xr-x.  2 root root       25 Apr 26  2022 gcrypt
+-rw-r--r--   1 root root      265 Dec  8  2021 gdbinit
+drwxr-xr-x   2 root root        6 Dec  8  2021 gdbinit.d
+drwxr-xr-x   3 root root       26 Aug  1  2023 glvnd
+drwxr-xr-x.  2 root root        6 Aug  8  2022 gnupg
+-rw-r--r--.  1 root root       94 Aug 12  2018 GREP_COLORS
+drwxr-xr-x.  4 root root       40 Jan  5  2023 groff
+-rw-r--r--   1 root root     6402 Feb 15 17:03 group
+-rw-r--r--.  1 root root     6414 Feb 15 16:48 group-
+lrwxrwxrwx.  1 root root       22 Jun  3  2022 grub2.cfg -> ../boot/grub2/grub.cfg
+drwx------.  2 root root     4096 Jan  5  2023 grub.d
+----------   1 root root     5418 Feb 15 17:03 gshadow
+----------.  1 root root     5426 Feb 15 16:48 gshadow-
+drwxr-xr-x.  3 root root       20 Jan  5  2023 gss
+-rw-r--r--.  1 root root        9 Sep 10  2018 host.conf
+-rw-r--r--   1 root root       24 May  4  2023 hostname
+-rw-r--r--.  1 root root      158 Sep 10  2018 hosts
+-rw-r--r--.  1 root root     4849 Mar 12  2022 idmapd.conf
+lrwxrwxrwx.  1 root root       11 Jul 27  2021 init.d -> rc.d/init.d
+-rw-r--r--.  1 root root      490 Sep 21  2022 inittab
+-rw-r--r--.  1 root root      942 Sep 10  2018 inputrc
+drwxr-xr-x.  2 root root      225 Jan  5  2023 insights-client
+drwxr-xr-x.  2 root root      159 Jul 11  2022 iproute2
+drwxr-xr-x.  2 root root       52 Jan  5  2023 iscsi
+-rw-r--r--.  1 root root       23 Apr  6  2022 issue
+drwxr-xr-x.  2 root root       27 Jan  5  2023 issue.d
+-rw-r--r--.  1 root root       22 Apr  6  2022 issue.net
+drwxr-xr-x   4 root root       48 Aug  1  2023 java
+drwxr-xr-x   2 root root        6 Dec 13  2018 jvm
+drwxr-xr-x   2 root root        6 Dec 13  2018 jvm-commmon
+drwxr-xr-x.  4 root root       33 Jan  5  2023 kdump
+-rw-r--r--.  1 root root     8550 Jan  5  2023 kdump.conf
+drwxr-xr-x.  3 root root       23 Sep 21  2022 kernel
+drwxr-xr-x.  2 root root        6 Jun 16  2021 keyutils
+-rw-r--r--.  1 root root      812 Aug 25  2021 krb5.conf
+drwxr-xr-x.  2 root root       83 Jan  5  2023 krb5.conf.d
+-rw-r--r--.  1 root root     1128 Jul 21  2022 kshrc
+-rw-r--r--   1 root root    31003 Aug  1  2023 ld.so.cache
+-rw-r--r--.  1 root root       28 Aug  1  2018 ld.so.conf
+drwxr-xr-x.  2 root root      129 Aug  1  2023 ld.so.conf.d
+-rw-r-----.  1 root root      191 Jan 23  2022 libaudit.conf
+drwxr-xr-x.  3 root root       20 Jan  5  2023 libblockdev
+drwxr-xr-x.  2 root root      246 Jan  5  2023 libibverbs.d
+drwxr-xr-x.  2 root root       35 Jan  5  2023 libnl
+drwxr-xr-x   2 root root        6 Dec  4  2018 libpaper.d
+drwxr-xr-x.  6 root root       70 Jan  5  2023 libreport
+drwxr-xr-x.  2 root root       62 Jan  5  2023 libssh
+-rw-r--r--.  1 root root     2391 Jul 23  2015 libuser.conf
+-rw-r--r--.  1 root root       17 May  4  2023 locale.conf
+lrwxrwxrwx.  1 root root       38 Jan  5  2023 localtime -> ../usr/share/zoneinfo/America/New_York
+-rw-r--r--.  1 root root     2512 Dec  9  2021 login.defs
+-rw-r--r--.  1 root root      438 Feb 19  2018 logrotate.conf
+drwxr-xr-x.  2 root root      219 Sep 12  2022 logrotate.d
+drwxr-xr-x.  3 root root       43 Jan  5  2023 lsm
+drwxr-xr-x.  2 root root       85 Jan  5  2023 lsvpd
+drwxr-xr-x.  6 root root      100 Jul 12  2022 lvm
+-r--r--r--   1 root root       33 May  4  2023 machine-id
+-rw-r--r--.  1 root root      111 May  4  2021 magic
+-rw-r--r--.  1 root root      272 May 11  2017 mailcap
+-rw-r--r--.  1 root root     5122 Jan 27  2022 makedumpfile.conf.sample
+-rw-r--r--.  1 root root     5165 Jun 24  2021 man_db.conf
+-rw-r--r--.  1 root root    60352 May 11  2017 mime.types
+-rw-r--r--.  1 root root     1108 Feb 17  2022 mke2fs.conf
+drwxr-xr-x.  2 root root       54 Jan  5  2023 modprobe.d
+drwxr-xr-x.  2 root root        6 Sep 21  2022 modules-load.d
+-rw-r--r--.  1 root root        0 Sep 10  2018 motd
+drwxr-xr-x.  2 root root       44 Jan  5  2023 motd.d
+lrwxrwxrwx.  1 root root       19 Jan  5  2023 mtab -> ../proc/self/mounts
+drwxr-xr-x.  2 root root       35 May  4  2023 multipath
+-rw-rw-r--.  1 root root       75 Jan  5  2023 multipath.conf
+-rw-r--r--.  1 root root     9450 Aug 12  2018 nanorc
+-rw-r--r--.  1 root root      767 Dec  2  2021 netconfig
+drwxr-xr-x.  7 root root      134 Sep 29  2022 NetworkManager
+-rw-r--r--.  1 root root       58 Sep 10  2018 networks
+drwx------.  3 root root       66 Jan  5  2023 nftables
+lrwxrwxrwx.  1 root root       29 Jan  5  2023 nsswitch.conf -> /etc/authselect/nsswitch.conf
+-rw-r--r--.  1 root root     2197 Mar 14  2022 nsswitch.conf.bak
+drwxr-xr-x.  2 root root       35 Jan  5  2023 nvme
+drwxr-xr-x.  2 root root       93 Jan  5  2023 objrepos
+drwxr-xr-x.  2 root root        6 Dec 15  2020 oddjob
+-rw-r--r--.  1 root root     4922 Dec 15  2020 oddjobd.conf
+drwxr-xr-x.  2 root root       70 Jan  5  2023 oddjobd.conf.d
+drwxr-xr-x.  3 root root       36 Jan  5  2023 openldap
+drwxr-xr-x.  2 root root        6 Jun 21  2021 opt
+lrwxrwxrwx.  1 root root       22 Apr  6  2022 os-release -> ..//usr/lib/os-release
+drwxr-xr-x.  2 root root       48 Jan  5  2023 PackageKit
+drwxr-xr-x.  2 root root     4096 Aug  2  2022 pam.d
+-rw-r--r--   1 root root       68 Dec  4  2018 papersize
+-rw-r--r--   1 root root    16025 Feb 15 17:03 passwd
+-rw-r--r--.  1 root root    16062 Feb 15 16:48 passwd-
+-rw-r--r--.  1 root root     2872 Aug 12  2018 pinforc
+drwxr-xr-x.  3 root root       21 Jan  5  2023 pkcs11
+drwxr-xr-x. 14 root root      193 Aug 18  2023 pki
+drwxr-xr-x.  2 root root       28 Jan  5  2023 plymouth
+drwxr-xr-x.  5 root root       52 Jan  5  2023 pm
+drwxr-xr-x.  5 root root       72 Jan  5  2023 polkit-1
+drwxr-xr-x.  2 root root        6 Jan  7  2021 popt.d
+drwxr-xr-x.  3 root root       48 Jan  5  2023 ppc64-diag
+-rw-r--r--.  1 root root      233 Sep 10  2018 printcap
+-rw-r--r--.  1 root root     2123 Apr 15  2020 profile
+drwxr-xr-x.  2 root root     4096 Jan  5  2023 profile.d
+-rw-r--r--.  1 root root     6568 Sep 10  2018 protocols
+lrwxrwxrwx.  1 root root       10 Aug 15  2022 rc0.d -> rc.d/rc0.d
+lrwxrwxrwx.  1 root root       10 Aug 15  2022 rc1.d -> rc.d/rc1.d
+lrwxrwxrwx.  1 root root       10 Aug 15  2022 rc2.d -> rc.d/rc2.d
+lrwxrwxrwx.  1 root root       10 Aug 15  2022 rc3.d -> rc.d/rc3.d
+lrwxrwxrwx.  1 root root       10 Aug 15  2022 rc4.d -> rc.d/rc4.d
+lrwxrwxrwx.  1 root root       10 Aug 15  2022 rc5.d -> rc.d/rc5.d
+lrwxrwxrwx.  1 root root       10 Aug 15  2022 rc6.d -> rc.d/rc6.d
+drwxr-xr-x. 10 root root      127 Sep 21  2022 rc.d
+lrwxrwxrwx.  1 root root       13 Sep 21  2022 rc.local -> rc.d/rc.local
+-rwxr-xr-x.  1 root root    10106 May 17  2021 rc.powerfail
+-rw-r--r--.  1 root root       45 Apr  6  2022 redhat-release
+-rw-r--r--.  1 root root     1787 Jun 16  2021 request-key.conf
+drwxr-xr-x.  2 root root        6 Jun 16  2021 request-key.d
+-rw-r--r--   1 root root      149 May  4  2023 resolv.conf
+drwxr-xr-x.  3 root root       40 Jan  5  2023 rhc
+drwxr-xr-x.  6 root root      132 Jan  5  2023 rhsm
+-rw-r--r--.  1 root root     1634 Aug  1  2018 rpc
+drwxr-xr-x.  2 root root       25 Sep 14  2022 rpm
+-rw-r--r--.  1 root root     3186 May 16  2022 rsyslog.conf
+drwxr-xr-x.  2 root root       52 May 16  2022 rsyslog.d
+drwxr-xr-x.  2 root root       35 Jun  3  2022 rwtab.d
+drwxr-xr-x.  2 root root       61 Jan  5  2023 samba
+drwxr-xr-x.  2 root root        6 Feb 17  2022 sasl2
+drwxr-xr-x.  7 root root     4096 Aug  2  2022 security
+drwxr-xr-x.  3 root root       57 Mar 30  2023 selinux
+-rw-r--r--.  1 root root   692252 Apr 15  2020 services
+-rw-r--r--.  1 root root      216 Feb 23  2022 sestatus.conf
+drwxr-xr-x.  2 root root       33 Jan  5  2023 setroubleshoot
+drwxr-xr-x   3 root root     4096 Aug  1  2023 sgml
+----------   1 root root    28823 Feb 15 17:03 shadow
+----------.  1 root root    28953 Feb 15 16:52 shadow-
+-rw-r--r--   1 root root      114 Aug  1  2023 shells
+drwxr-xr-x.  2 root root       76 Jan  5  2023 skel
+drwxr-xr-x.  3 root root       74 Jan  5  2023 smartmontools
+drwxr-xr-x.  6 root root       86 Jan  5  2023 sos
+drwxr-xr-x.  3 root root     4096 May  4  2023 ssh
+drwxr-xr-x.  2 root root       19 Jan  5  2023 ssl
+drwx------.  4 sssd sssd       31 Jun  3  2022 sssd
+-rw-r--r--   1 root root     5166 Feb 15 17:03 subgid
+-rw-r--r--.  1 root root     5185 Feb 15 16:48 subgid-
+-rw-r--r--   1 root root     5166 Feb 15 17:03 subuid
+-rw-r--r--.  1 root root     5185 Feb 15 16:48 subuid-
+-rw-r-----.  1 root root     1786 Dec  7  2021 sudo.conf
+-r--r-----   1 root root     4383 Feb 10 21:22 sudoers
+drwxr-x---.  2 root root       33 Jan  5  2023 sudoers.d
+-rw-r-----.  1 root root     3181 Dec  7  2021 sudo-ldap.conf
+drwxr-xr-x.  3 root root       24 Jan  5  2023 swid
+drwxr-xr-x.  5 root root     4096 Jan  5  2023 sysconfig
+-rw-r--r--   1 root root      481 Mar 30  2023 sysctl.conf
+drwxr-xr-x.  2 root root       28 Sep 21  2022 sysctl.d
+drwxr-xr-x.  5 root root      172 Jan  5  2023 systemd
+lrwxrwxrwx.  1 root root       14 Apr  6  2022 system-release -> redhat-release
+-rw-r--r--.  1 root root       41 Apr  6  2022 system-release-cpe
+-rw-r-----.  1 root tss      7046 Nov  6  2020 tcsd.conf
+drwxr-xr-x.  2 root root        6 May 18  2021 terminfo
+drwxr-xr-x.  2 root root        6 Sep 21  2022 tmpfiles.d
+-rw-r--r--.  1 root root      375 Sep 22  2022 trusted-key.key
+drwxr-xr-x.  3 root root      136 Jan  5  2023 tuned
+drwxr-xr-x.  4 root root       68 Aug  1  2023 udev
+drwxr-xr-x.  2 root root       60 Jan  5  2023 udisks2
+drwxr-xr-x.  2 root root       45 Jan  5  2023 unbound
+-rw-r--r--.  1 root root      587 Aug 12  2018 updatedb.conf
+-rw-r--r--.  1 root root     1523 Aug 12  2018 usb_modeswitch.conf
+-rw-r--r--.  1 root root       28 Jan  5  2023 vconsole.conf
+-rw-r--r--.  1 root root     1982 Jun 14  2022 vimrc
+-rw-r--r--.  1 root root     1204 Jun 14  2022 virc
+-rw-r--r--.  1 root root     4925 Apr  3  2020 wgetrc
+drwxr-xr-x.  6 root root       70 Jan  5  2023 X11
+-rw-r--r--.  1 root root      642 Dec  9  2016 xattr.conf
+drwxr-xr-x.  6 root root       72 Aug  1  2023 xdg
+drwxr-xr-x.  2 root root        6 Jun 21  2021 xinetd.d
+drwxr-xr-x   2 root root       21 Aug  1  2023 xml
+drwxr-xr-x.  2 root root       57 Jan  5  2023 yum
+lrwxrwxrwx.  1 root root       12 Mar 18  2022 yum.conf -> dnf/dnf.conf
+drwxr-xr-x.  2 root root       25 Aug 18  2023 yum.repos.d
+bash-4.4$ echo -e " [Kaf[K[KAfter use 'ls -l /t[Ketc/' to list all fie[Kle and [K[K[K[Kin '/etc' directory[C[1@/[C[C[C[C[C[C[C[C[C[C[C, I find th ere is a file nam[K[K[Kname 'os-release' wi[K[Kmy[Kay contains os information.' >> A[K[K[K[K[K\nTH[Khe first try didn't work be cause my typo, then I look[K[K[K[Krun again in my local terminal [K and fin[K[Kound that file." >> Assignment1.txxt 
+bash-4.4$ cat /etc/os-release >> Assignment1.txt 
+bash-4.4$ nano Assignment1.txt 
+[?1049h[22;0;0t[1;32r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[30;38H(B[0;7m[ Reading File ](B[m[30;44H(B[0;7m 65 lines ](B[m[H(B[0;7m  GNU nano 2.9.8                         Assignment1.txt                                   [1;90H(B[m[31d(B[0;7m^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos[32d(B[0;7m^X(B[m Exit[32;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line[30d[3d[39;49m(B[mquestion 1[4dI use 'mkdir [foldername]' to create directory[6dquestion 2.1[7d/bin/bash[8dI use 'echo $SHELL'[10dquestion 2.2[11d/mnt/scratch/SP24_CS131_Jyotika/ericsp24[12dI use 'echo $HOME'[14dquestion 3[15d1212[16dI use 'id -u' to find UID[17dericsp24 S78[18dI use 'groups' to find groups of user[19dIn order to find out command used, I can use 'history' to list command history.[20dI can modify command such as 'history | grep [keyword]' to list by keyword.[21dI can press CTRL + R and search command used.[23dquestion 4[24dAfter use 'chmod' changed permission:[25dtotal 8[26d-rw-rw-r-- 1 ericsp24 ericsp24  523 Feb 22 17:30 Assignment1.txt[27ddr-xrwxr-x 2 ericsp24 ericsp24 4096 Feb 22 17:29 myDir[28dYes, I can 'cd' into myDir directory.[29dYes, I can 'ls' and 'ls -l' myDir directory.[3d[?12l[?25h[?25lYes, I can 'cd' into myDir directory.[4dYes, I can 'ls' and 'ls -l' myDir directory.[K[5dNo, I can't create file in myDir directory. It show me error message that said 'Permission$[6;1H[K[7dquestion 5[8dtotal 16[K[9d-rw-rw-r-- 1 ericsp24 ericsp24  924 Feb 22 17:36 Assignment1.txt[10ddr-xrwxr-x 2 ericsp24 ericsp24 4096 Feb 22 17:29 myDir[11ddrwxrwxr-x 2 ericsp24 ericsp24 4096 Feb 22 17:37 myDir2[12ddrwxrwxr-x 2 ericsp24 ericsp24 4096 Feb 22 17:37 myDir3[14;10H6.1[15dtotal 0[16d-rw-rw-r-- 1 ericsp24 ericsp24 0 Feb 22 17:40 myFile.txt[17d[K[18dquestion 6.2[K[19d [1K total        used        free      shared  buff/cache   available[20dMem:          71367       30739       22310        3587       18318       35582[21dSwap:          4119           0        4119[K[23;10H9[24d'ls -l /etc/' to list all file in '/etc/' directory, I find there is a file name$[25;1HThe first try didn't work because my typo, then I run again in my local terminal and found$[26;1HNAME="Red Hat Enterprise Linux"[K[27dVERSION="8.6 (Ootpa)"[K[28dID="rhel"[K[29dID_LIKE="fedora"[K[3d[?12l[?25h[?25l[4d[?12l[?25h[?25l[5d[?12l[?25h[?25l[6d[?12l[?25h[?25l[7d[?12l[?25h[?25l[8d[?12l[?25h[?25l[9d[?12l[?25h[?25l[10d[?12l[?25h[?25l[11d[?12l[?25h[?25l[12d[?12l[?25h[?25l[13d[?12l[?25h[?25l[14d[?12l[?25h[?25l[15d[?12l[?25h[?25l[16d[?12l[?25h[?25l[17d[?12l[?25h[?25l[18d[?12l[?25h[?25l[19d[?12l[?25h[?25l[20d[?12l[?25h[?25l[21d[?12l[?25h[?25l[22d[?12l[?25h[?25l[23d[?12l[?25h[?25l[24d[?12l[?25h[?25l[25d[?12l[?25h[?25l[26d[?12l[?25h[?25l[27d[?12l[?25h[?25l[30d[K[28d[?12l[?25h[?25l[29d[?12l[?25h[?25l7[3;30r8[30d[14S[1;32r[16;1HVERSION_ID="8.6"[17dPLATFORM_ID="platform:el8"[18dPRETTY_NAME="Red Hat Enterprise Linux 8.6 (Ootpa)"[19dANSI_COLOR="0;31"[20dCPE_NAME="cpe:/o:redhat:enterprise_linux:8::baseos"[21dHOME_URL="https://www.redhat.com/"[22dDOCUMENTATION_URL="https://access.redhat.com/documentation/red_hat_enterprise_linux/8/"[23dBUG_REPORT_URL="https://bugzilla.redhat.com/"[25dREDHAT_BUGZILLA_PRODUCT="Red Hat Enterprise Linux 8"[26dREDHAT_BUGZILLA_PRODUCT_VERSION=8.6[27dREDHAT_SUPPORT_PRODUCT="Red Hat Enterprise Linux"[28dREDHAT_SUPPORT_PRODUCT_VERSION="8.6"[16d[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[11d[?12l[?25h[?25l[12d[?12l[?25h[?25l[1;82H(B[0;7mModified(B[m[12;30r[12;1HM[1;32r[13;1H[?12l[?25h[?25l[A[?12l[?25h[?25l[31;16H       (B[0;7mM-D(B[m DOS Format        (B[0;7mM-A(B[m Append            (B[0;7mM-B(B[m Backup File[K[32;2H(B[0;7mC(B[m Cancel[16G       (B[0;7mM-M(B[m Mac Format        (B[0;7mM-P(B[m Prepend           (B[0;7m^T(B[m To Files[K[30d(B[0;7mFile Name to Write: Assignment1.txt                                                        [30;1H(B[m[30;36H[?12l[?25h[?25l[K[1;90H[1;82H(B[0;7m        (B[m[30;37H(B[0;7m[ Wrote 66 lines ](B[m[31;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos[32;2H(B[0;7mX(B[m Exit  [16G(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line[30d[12d[?12l[?25h[?25l[30d[J[32;91H[?12l[?25h[32;1H[?1049l[23;0;0t[?1l>bash-4.4$ 
+bash-4.4$ echo -i[Ke "\nquestion 10" >> Assignment1.txt 
+bash-4.4$ ls -l /etc/ | grep 'os'
+-rw-r--r--.  1 root root        9 Sep 10  2018 host.conf
+-rw-r--r--   1 root root       24 May  4  2023 hostname
+-rw-r--r--.  1 root root      158 Sep 10  2018 hosts
+drwxr-xr-x.  2 root root       93 Jan  5  2023 objrepos
+lrwxrwxrwx.  1 root root       22 Apr  6  2022 os-release -> ..//usr/lib/os-release
+drwxr-xr-x.  6 root root       86 Jan  5  2023 sos
+drwxr-xr-x.  2 root root       25 Aug 18  2023 yum.repos.d
+bash-4.4$ ls -l /etc/ | grep 'os'[K-release' >> Assignment1.txt 
+bash-4.4$ n[Kecho -e "The 'rwxrwxrwx' is the permission of this file, [K[K.\nIt means read, write, a nd executre[K[Ke permissions." >> Assignment1.txt 
+bash-4.4$ nano Assignment1.txt 
+[?1049h[22;0;0t[1;32r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[30;38H(B[0;7m[ Reading File ](B[m[30;44H(B[0;7m 71 lines ](B[m[H(B[0;7m  GNU nano 2.9.8                         Assignment1.txt                                   [1;90H(B[m[31d(B[0;7m^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos[32d(B[0;7m^X(B[m Exit[32;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line[30d[3d[39;49m(B[mquestion 1[4dI use 'mkdir [foldername]' to create directory[6dquestion 2.1[7d/bin/bash[8dI use 'echo $SHELL'[10dquestion 2.2[11d/mnt/scratch/SP24_CS131_Jyotika/ericsp24[12dI use 'echo $HOME'[14dquestion 3[15d1212[16dI use 'id -u' to find UID[17dericsp24 S78[18dI use 'groups' to find groups of user[19dIn order to find out command used, I can use 'history' to list command history.[20dI can modify command such as 'history | grep [keyword]' to list by keyword.[21dI can press CTRL + R and search command used.[23dquestion 4[24dAfter use 'chmod' changed permission:[25dtotal 8[26d-rw-rw-r-- 1 ericsp24 ericsp24  523 Feb 22 17:30 Assignment1.txt[27ddr-xrwxr-x 2 ericsp24 ericsp24 4096 Feb 22 17:29 myDir[28dYes, I can 'cd' into myDir directory.[29dYes, I can 'ls' and 'ls -l' myDir directory.[3d[?12l[?25h[?25lYes, I can 'cd' into myDir directory.[4dYes, I can 'ls' and 'ls -l' myDir directory.[K[5dNo, I can't create file in myDir directory. It show me error message that said 'Permission$[6;1H[K[7dquestion 5[8dtotal 16[K[9d-rw-rw-r-- 1 ericsp24 ericsp24  924 Feb 22 17:36 Assignment1.txt[10ddr-xrwxr-x 2 ericsp24 ericsp24 4096 Feb 22 17:29 myDir[11ddrwxrwxr-x 2 ericsp24 ericsp24 4096 Feb 22 17:37 myDir2[12ddrwxrwxr-x 2 ericsp24 ericsp24 4096 Feb 22 17:37 myDir3[14;10H6.1[15dtotal 0[16d-rw-rw-r-- 1 ericsp24 ericsp24 0 Feb 22 17:40 myFile.txt[17d[K[18dquestion 6.2[K[19d [1K total        used        free      shared  buff/cache   available[20dMem:          71367       30739       22310        3587       18318       35582[21dSwap:          4119           0        4119[K[23;10H9[24d'ls -l /etc/' to list all file in '/etc/' directory, I find there is a file name$[25;1HThe first try didn't work because my typo, then I run again in my local terminal and found$[26;1H[K[27dNAME="Red Hat Enterprise Linux"[K[28dVERSION="8.6 (Ootpa)"[K[29dID="rhel"[K[3d[?12l[?25h[?25lVERSION="8.6 (Ootpa)"[K[4dID="rhel"[K[5dID_LIKE="fedora"[K[6dVERSION_ID="8.6"[7dPLATFORM_ID="platform:el8"[8dPRETTY_NAME="Red Hat Enterprise Linux 8.6 (Ootpa)"[9dANSI_COLOR="0;31"[K[10dCPE_NAME="cpe:/o:redhat:enterprise_linux:8::baseos"[K[11dHOME_URL="https://www.redhat.com/"[K[12dDOCUMENTATION_URL="https://access.redhat.com/documentation/red_hat_enterprise_linux/8/"[13dBUG_REPORT_URL="https://bugzilla.redhat.com/"[14d[K[15dREDHAT_BUGZILLA_PRODUCT="Red Hat Enterprise Linux 8"[16dREDHAT_BUGZILLA_PRODUCT_VERSION=8.6[K[17dREDHAT_SUPPORT_PRODUCT="Red Hat Enterprise Linux"[18dREDHAT_SUPPORT_PRODUCT_VERSION="8.6"[19d[K[20dquestion 10[K[21dlrwxrwxrwx.  1 root root[31G 22 Apr  6  2022 os-release -> ..//usr/lib/os-release[22dThe 'rwxrwxrwx' is the permission of this file.[23dIt means read, write, and execute permissions.[24d[K[25d[K[27d[K[28d[K[29d[K[3d[?12l[?25h[?25l[30d[J[32;91H[?12l[?25h[32;1H[?1049l[23;0;0t[?1l>bash-4.4$ ls -l
+total 16
+-rw-rw-r-- 1 ericsp24 ericsp24 2495 Feb 22 17:55 Assignment1.txt
+dr-xrwxr-x 2 ericsp24 ericsp24 4096 Feb 22 17:29 myDir
+drwxrwxr-x 2 ericsp24 ericsp24 4096 Feb 22 17:41 myDir2
+drwxrwxr-x 2 ericsp24 ericsp24 4096 Feb 22 17:41 myDir3
+bash-4.4$ history
+    1  pwd
+    2  mkdir test
+    3  ls
+    4  rmdir test
+    5  ls
+    6  passwd
+    7  password
+    8  passwd
+    9  ping 172.20.25.9
+   10  -h
+   11  -help
+   12  man wget
+   13  wget [url]
+   14  wget --help
+   15  exit
+   16  ls
+   17  exit
+   18  wget www.github.com
+   19  ls
+   20  open index.html 
+   21  firefox index.html 
+   22  lynx index.html 
+   23  index.html
+   24  nano index.html 
+   25  ls
+   26  exit
+   27  mkdir sampleProject
+   28  ls -ltr
+   29  cd sampleProject/
+   30  touch sampleFile.txt
+   31  ls
+   32  git init
+   33  git add
+   34  git add .
+   35  ls
+   36  git status
+   37  git config --global user.email "vet.ericzhao@gmail.com"
+   38  git config --global user.email "fredkiki1986@gmail.com"
+   39  git config --global user.name "EricSJSU-DataScience"
+   40  mkdir ~/.ssh
+   41  ls
+   42  cd ../
+   43  ls
+   44  cd sampleProject
+   45  ls
+   46  mkdir ~/.ssh
+   47  ls
+   48  cd ~/.ssh &&ssh-keygen
+   49  ls -al ~/.ssh
+   50  clip < ~/.ssh/cat id_rsa.pub
+   51  clip < ~/.ssh/id_rsa.pub
+   52  clip < ~/.ssh/'cat id_rsa.pub'
+   53  exit
+   54  ls
+   55  cd .ssh
+   56  ls
+   57  cat id_rsa.pub
+   58  ./'cat id_rsa.pub'
+   59  exit
+   60  cd ~/.ssh &&ssh-keygen
+   61  cat id_rsa.pub
+   62  git remote add origin git@github.com:EricSJSU-DataScience/CS131.git
+   63  ls
+   64  rm 'cat id_rsa.pub'
+   65  ls
+   66  rm 'cat id_rsa.pub.pub'
+   67  ls
+   68  exit
+   69  ls
+   70  pwd
+   71  ls
+   72  mkdir practice
+   73  ls
+   74  cd practice/
+   75  touch test.ext
+   76  ls
+   77  touch file_a.txt
+   78  ls
+   79  vi file_a.txt 
+   80  cat file_a.txt 
+   81  wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/spotify-2023.csv
+   82  ls
+   83  wget https://drive.google.com/file/d/14hP1hWbN6Vy5Jl7Two9JUTibFFo9BA5r/view?usp=sharing
+   84  ls
+   85  wget https://drive.google.com/file/d/14hP1hWbN6Vy5Jl7Two9JUTibFFo9BA5r/view?usp=sharing
+   86  ls
+   87  rm 'view?usp=sharing'
+   88  rm 'view?usp=sharing.1' 
+   89  ls
+   90  cat spotify-2023.csv 
+   91  head spotify-2023.csv 
+   92  clear
+   93  ls
+   94  nano file_a.txt 
+   95  cat file_a.txt 
+   96  echo "this line is added by echo cmd" >> file_a.txt 
+   97  cat file_a.txt 
+   98  man cat
+   99  less file_a.txt 
+  100  more file_a.txt 
+  101  head spotify-2023.csv 
+  102  tail -15 spotify-2023.csv 
+  103  less spotify-2023.csv 
+  104  more spotify-2023.csv 
+  105  df -h
+  106  exit
+  107  ls
+  108  cd practice
+  109  ls
+  110  wget www.github.com
+  111  ls
+  112  exit
+  113  ls
+  114  cd cs131
+  115  ls
+  116  git init
+  117  mkdir worksheet1
+  118  ls
+  119  rmdir worksheet1/
+  120  ls
+  121  mkdir Worksheet1
+  122  ls
+  123  history > cmds.log
+  124  ls
+  125  wget www.github.com
+  126  history > cmds.log
+  127  ls
+  128  rm index.html.1
+  129  ls
+  130  rm index.html
+  131  ls
+  132  wget www.github.com
+  133  ls
+  134  history > cmds.log
+  135  ls
+  136  cat cmds.log
+  137  cd 
+  138  ls
+  139  practice
+  140  cd practice/
+  141  ls
+  142  cp spotify-2023.csv ../cs131
+  143  cd ../cs131
+  144  ls
+  145  git status
+  146  git add cmds.log
+  147  git status
+  148  exit
+  149  cd cs131
+  150  ls
+  151  git status
+  152  git commit -m "This is my first commit!"
+  153  exit
+  154  cd cs131
+  155  git remote -v
+  156  git remote get-url origin
+  157  git status
+  158  git config --global user.email
+  159  git config --global user.name
+  160  git status
+  161  git push origin master
+  162  git push cs131 master
+  163  git remote -v
+  164  git remote add origin https://github.com/EricSJSU-DataScience/CS131.git
+  165  git remote -v
+  166  git push origin master
+  167  git remote set-url origin git@github.com:EricSJSU-DataScience/CS131.git
+  168  git remote -v
+  169  git push origin master
+  170  exit
+  171  ls
+  172  mkdir cs131
+  173  ls
+  174  cd cs131
+  175  ls
+  176  wget www.github.com
+  177  ls
+  178  cd cs131
+  179  ls
+  180  git status
+  181  cp cmds.log ./Worksheet1
+  182  ls
+  183  cd Worksheet1/
+  184  ls
+  185  git status
+  186  git add ./Worksheet1
+  187  cd
+  188  ls
+  189  git add Worksheet1/
+  190  cd Worksheet1
+  191  cs131
+  192  cd cs131
+  193  ls
+  194  git add Worksheet1/
+  195  git status
+  196  git push origin master
+  197  cd 
+  198  ls 
+  199  cd practice
+  200  ls 
+  201  wc -l file_a.txt 
+  202  cat file_a.txt 
+  203  grep john file_a.txt 
+  204  grep line1 file_a.txt 
+  205  grep this file_a.txt 
+  206  grep -i this file_a.txt 
+  207  grep -v this file_a.txt 
+  208  man grep
+  209  grep -vi Line1 file_a.txt 
+  210  echo "me"
+  211  echo 'pwd'
+  212  pwd
+  213  echo "pwd"
+  214  echo 'pwd'
+  215  echo `pwd`
+  216  echo $HOME
+  217  ~
+  218  echo $SHELL
+  219  a="Hello World"
+  220  echo $a
+  221  num1=100
+  222  echo $num1
+  223  echo $0
+  224  echo $1
+  225  echo $i
+  226  wc -l file_a.txt 
+  227  cd ./cs131
+  228  cd ../cs131
+  229  ls
+  230  git status
+  231  cd ../practice/
+  232  a=bcd
+  233  echo $a
+  234  a=bcd+e
+  235  echo $a
+  236  a=bcd+1
+  237  echo $a
+  238  a=$((1+4))
+  239  echo $a
+  240  b=ab1
+  241  a=$((b+2))
+  242  echo $a
+  243  hist
+  244  history
+  245  a=test
+  246  c=${a}bc
+  247  echo$c
+  248  echo $c
+  249  date
+  250  man date
+  251  export DATETIME=`date "+%Y%m%d_%H%M%S"`
+  252  echo DATETIME
+  253  echo $DATETIME
+  254  OUTDIR=out.$DATETIME
+  255  echo $OUTDIR
+  256  OUTDIR=today.$DATETIME
+  257  echo $OUTDIR
+  258  name(){echo"CS131";}
+  259  name(){echo "CS131";}
+  260  echo $?
+  261  echo "hello"
+  262  echo $?
+  263  ls
+  264  echo $shell
+  265  echo $SHELL
+  266  echo $USERNAME
+  267  .bashrc
+  268  echo .bashrc
+  269  ls
+  270  cd 
+  271  ls
+  272  man ls
+  273  ls -a
+  274  ls -al
+  275  cat .bash_history
+  276  pwd
+  277  ls -al
+  278  vi .bashrc
+  279  source .bashrc
+  280  lll
+  281  clear
+  282  vi .bashrc
+  283  source .bashrc
+  284  ls
+  285  cd practice/
+  286  ls
+  287  wc -l spotify-2023.csv 
+  288  file_count=`wc -l spotify-2023.csv `
+  289  echo file_count
+  290  cd ../cs131
+  291  ls
+  292  git commit
+  293  git commit -m "This is second try"
+  294  git push origin master
+  295  exit
+  296  history
+  297  exit
+  298  git config --global user.email
+  299  git config --global user.name
+  300  ls
+  301  cd cs131
+  302  ls
+  303  git status
+  304  git add index.html
+  305  git status
+  306  git commit -m "add one more file"
+  307  git push origin master
+  308  git status
+  309  cd
+  310  ls -la
+  311  cd .ssh
+  312  ls -la
+  313  cat id_rsa
+  314  cat id_rsa.pub
+  315  ls -la
+  316  exit
+  317  ls
+  318  pwd
+  319  grep eric /etc/passwd
+  320  cat /etc/passwd
+  321  sudo cat /etc/shadow
+  322  echo "Note:"
+  323  echo "Note: have to use sudo, but still need have access permission.:
+  324  echo "Note: have to use sudo, but still need have access permission."
+  325  echo "Note: have to use sudo, but still need have access permission."
+  326  cat /etc/group
+  327  grep :0: /etc/group
+  328  echo "Note: sudo is superuser access"
+  329  echo "Note: sudo [options] [-u user] command"
+  330  cat /etc/sudoers
+  331  sudo cat /etc/sudoers
+  332  grep wheel /etc/group
+  333  ls
+  334  cd practice/
+  335  ls -la
+  336  echo "sudo chown [username] [filename]"
+  337  echo "sudo chgrp [groupname] [filename]"
+  338  echo "Note: -R to change all for directory"
+  339  vi temp.txt
+  340  ls -l
+  341  sudo chgrp S78 temp.txt
+  342  echo "Note: no sudoer access to change group"
+  343  echo "Note: useradd [options] [username]"
+  344  echo "Note: usedel [options] [username]"
+  345  clear
+  346  echo "Note: groupadd [options] [groupname]"
+  347  groupadd students
+  348  sudo groupadd students
+  349  "Note: groupadd need sudoer access"
+  350  man user
+  351  man usermod
+  352  echo "scheduling repeated jobs with cron"
+  353  crontab -l
+  354  echo "Note: crontab file entries check crontab guru for more detal info"
+  355  ls -l
+  356  vi sample.txt
+  357  ls -l
+  358  crontab -l
+  359  crontab -e
+  360  crontab -l
+  361  vi sample.txt
+  362  vi db.log
+  363  ls -l
+  364  crontab -e
+  365  crontab -l
+  366  tail sample.txt
+  367  cat sample.txt
+  368  cd 
+  369  ls -l
+  370  tail sample.txt
+  371  crontab -e
+  372  crontab -l
+  373  tail sample.txt
+  374  exit
+  375  ls
+  376  tail sample.txt
+  377  vi sample.txt
+  378  ls -l
+  379  df
+  380  man df
+  381  df -h
+  382  exit
+  383  cd practice/
+  384  chmod 640 .
+  385  ls -la
+  386  ls -l
+  387  ls
+  388  chmod 644 .
+  389  chmod 644 file_a.txt
+  390  cd 
+  391  ls -la
+  392  cd sampleProject/
+  393  ls -la
+  394  vi sampleFile.txt 
+  395  wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/Global%20YouTube%20Statistics.csv
+  396  touch a.txt
+  397  touch b.txt
+  398  touch c.txt
+  399  touch aa.txt
+  400  touch ba.txt
+  401  ls -l
+  402  ls [ab].txt
+  403  ls ?.txt
+  404  ls ??.txt
+  405  ls *.*
+  406  mkdir newDir
+  407  find . -name aa.txt
+  408  find . -name a
+  409  find . -name newDir
+  410  ls -la
+  411  ls -la >> ?.txt 
+  412  ls -la >> *.txt 
+  413  ls -la >> aa.txt 
+  414  find . -type f -empty
+  415  find . -type f -name temp.txt
+  416  find . -type f -name ?.*
+  417  find . -type f -name aa.txt 
+  418  touch temp.pdf
+  419  ls -l
+  420  ls -la >> temp.pdf 
+  421  cat temp.pdf
+  422  ls -l | grep temp.pdf
+  423  chmod a-rwx temp.pdf 
+  424  ls -l | grep temp.pdf
+  425  ls -l
+  426  chmod a+rwx temp.pdf 
+  427  ls -l
+  428  cd ../practice/
+  429  cd 
+  430  ls
+  431  cd practice
+  432  ls
+  433  ls -l
+  434  chmod a+rw practice/
+  435  ls -l
+  436  cd practice
+  437  cd practice/
+  438  rm -r practice/
+  439  sudo rm -r practice/
+  440  ls -l
+  441  chmod a+rw practice/.
+  442  chmod a+rw practice/file_a.txt
+  443  rm -rf practice/
+  444  cd sampleProject/
+  445  ls -l
+  446  rm -rf temp.pdf
+  447  ls -l
+  448  ls -l ../
+  449  chmod a+rw ../sample.txt
+  450  ls -l ../
+  451  exit
+  452  ls | grep test
+  453  ls -l
+  454  cd practice/
+  455  ls
+  456  ls | grep test
+  457  ls | grep test | wc -l
+  458  grep taylor spotify-2023.csv | grep "ed sheeran"
+  459  echo "Note: grep carefully about upper case and lower case"
+  460  grep -i taylor spotify-2023.csv | grep -i "ed sheeran"
+  461  echo "note: .(current dir) ..(previous dir)"
+  462  ls -l
+  463  echo "note: permissions in file systems[chmod] r=4 w=2 x=1, rw=6, rwx=7"
+  464  ls -l
+  465  chmod 666 file_a.txt 
+  466  ls -l
+  467  echo "note: 3 basic levels of users owner/groups/others"
+  468  chmod o-rw file_a.txt 
+  469  ls -l
+  470  echo "note: chmod [a/u/g/o +/- r/w/x] filename"
+  471  ls -la >> file_a.txt 
+  472  vi file_a.txt 
+  473  clear
+  474  history | tail -n 20
+  475  ls -l
+  476  cd cs131
+  477  ls -l
+  478  mkdir Worksheet2
+  479  cd Worksheet2/
+  480  wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/Global%20YouTube%20Statistics.csv
+  481  ls -l
+  482  vi Global\ YouTube\ Statistics.csv 
+  483  grep 'United States' Global\ YouTube\ Statistics.csv 
+  484  grep 'United States' Global\ YouTube\ Statistics.csv > Global_YouTube_Stat_US.txt
+  485  ls -l
+  486  grep 'Music' Global\ YouTube\ Statistics.csv 
+  487  grep 'Music' Global\ YouTube\ Statistics.csv > Global_YouTube_Stat_Music.txt
+  488  ls -l
+  489  man wc
+  490  wc -lw Global_YouTube_Stat_Music.txt > counts.txt
+  491  ls
+  492  vi counts.txt 
+  493  cat counts.txt 
+  494  history | tail -n 40 > cmds.log
+  495  ls -l
+  496  cd ../
+  497  git status
+  498  cd Worksheet2/
+  499  git status
+  500  ls -l
+  501  cd ../
+  502  git status
+  503  git add Worksheet2/
+  504  git status
+  505  git reset Worksheet2/Global\ YouTube\ Statistics.csv
+  506  git reset Worksheet2/Global_YouTube_Stat_US.txt
+  507  git reset Worksheet2/Global_YouTube_Stat_Music.txt
+  508  git status
+  509  git commit -m "This is for Worksheet2"
+  510  git push origin master
+  511  exit
+  512  echo "Note:20240221 W lecture"
+  513  ls -l
+  514  cd practice/
+  515  mkdir practice2
+  516  ls -l
+  517  rm -r practice/
+  518  man rm
+  519  cd practice2
+  520  touch aa.txt
+  521  touch aad.txt
+  522  touch ba.txt
+  523  man xargs
+  524  touch cc.txt
+  525  touch ab.txt
+  526  ls -l
+  527  crontab -l
+  528  ls -l ../
+  529  echo "Note: cron job run last day every month  30 13 28-31 ** ["$(date +\%d -d tomorrwo)" = "01"] "
+  530  man cd
+  531  echo "note: root directory in unix os is represented by /"
+  532  echo "note: unix imposes no rule for filename extensions - but software app may impose rule. True"
+  533  echo "note: inode also called index of file."
+  534  ls -l
+  535  ls -lart
+  536  ls -i
+  537  echo "note: ls -i give inode number"
+  538  echo "note: in unix, the file name and file size are stored in the file's data itself. False"
+  539  stat aa.txt
+  540  echo "note: ls -i give inode number" >> aa.txt
+  541  stat aa.txt
+  542  ls -l
+  543  mv aa.txt bb.txt
+  544  ls -l
+  545  mv bb.txt cc.txt
+  546  ls -l
+  547  echo "mv file1 file2" >> aa.txt
+  548  ls -l
+  549  ls -i
+  550  mv aa.txt abc.txt
+  551  ls -i
+  552  echo "note: mv file1 file2 will move the file's data to a new on disk. False" >> zoomquiz.txt
+  553  stat abc.txt
+  554  clear
+  555  ls -l
+  556  cp abc.txt cba.txt
+  557  ls -l
+  558  ls -li
+  559  rm ba.txt
+  560  echo "testing file" > newba.txt
+  561  ls -li
+  562  echo "note: rm one file, next created file will use the removed file's inode number." >> zoomquiz.txt
+  563  script
+  564  ls -l
+  565  cat typescript
+  566  exit
+  567  ls -l
+  568  cd practice2
+  569  ls -l
+  570  cat typescript 
+  571  exit
+  572  mkdir Assignment1
+  573  ls -l
+  574  cd Assignment1/
+  575  touch Assignment1.txt
+  576  ls -l
+  577  echo "question 1" >> Assignment1.txt 
+  578  echo "I use 'mkdir [foldername]' to create directory" >> Assignment1.txt 
+  579  nano Assignment1.txt 
+  580  echo "question 2" >> Assignment1.txt 
+  581  echo $SHELL
+  582  echo $SHELL >> Assignment1.txt 
+  583  echo "I use 'echo $SHELL'" >> Assignment1.txt 
+  584  nano Assignment1.txt 
+  585  echo -e "\nquestion 3" >> Assignment1.txt 
+  586  pwd
+  587  pwd >> Assignment1.txt 
+  588  nano Assignment1.txt 
+  589  echo $HOME
+  590  echo $HOME >> Assignment1.txt 
+  591  echo "I use echo $HOME" >> Assignment1.txt 
+  592  nano Assignment1.txt 
+  593  echo -e "\nquestion 3" >> Assignment1.txt 
+  594  id -u
+  595  id -u >> Assignment1.txt 
+  596  echo -e "I use 'id -u' to find UID" >> Assignment1.txt 
+  597  groups
+  598  groups >> Assignment1.txt 
+  599  echo -e "I use 'groups' to find groups of user" >> Assignment1.txt 
+  600  echo -e "In order to find out command used, I can use 'history' to list command history.\nI can modify command such as 'history | grep [keyword]' to list by keyword.\nI can press CTRL + R and search command used." >> Assignment1.txt 
+  601  nano Assignment1.txt 
+  602  echo -e "\nquestion 4" >> Assignment1.txt 
+  603  mkdir myDir
+  604  ls
+  605  chmod u-w myDir/
+  606  echo "After use 'chmod' changed permission: " >> Assignment1.txt 
+  607  ls -l >> Assignment1.txt 
+  608  cd myDir/
+  609  echo "Yes, I can 'cd' into myDir directory." >> ../Assignment1.txt 
+  610  ls -l
+  611  ls 
+  612  echo "Yes, I can 'ls' and 'ls -l' myDir directory." >> ../Assignment1.txt 
+  613  touch temp.txt
+  614  echo "No, I can't create file in myDir directory. It show me error message that said 'Permission denied'. Since I remove write permission for this directory, I won't be able to write." >> ../Assignment1.txt 
+  615  echo -e "\nquestion 5" >> ../Assignment1.txt 
+  616  cd ../
+  617  ls -l
+  618  mkdir myDir2 myDir3
+  619  ls -l
+  620  ls -l >> Assignment1.txt 
+  621  nano Assignment1.txt 
+  622  echo -e "\nquestion 6.1" >> Assignment1.txt 
+  623  touch myFile.txt
+  624  ls -l
+  625  rm myFile.txt
+  626  ls -l
+  627  cd myDir2/
+  628  touch myFile.txt
+  629  ls -l
+  630  mv myFile.txt ../myDir3/
+  631  ls -l
+  632  ls -l ../myDir3/
+  633  ls -l ../myDir3/ >> ../Assignment1.txt 
+  634  echo -e "\nquestion6.2" >> ../Assignment1.txt 
+  635  free
+  636  man free
+  637  free -m
+  638  free -m >> ../Assignment1.txt 
+  639  nano ../Assignment1.txt 
+  640  cd ../
+  641  ls -l
+  642  echo -e "\nquestion 9" >> Assignment1.txt 
+  643  ls -l \etc
+  644  cat /etc/os-release
+  645  ls -l /etc/
+  646  echo -e "After use 'ls -l /etc/' to list all file in '/etc/' directory, I find there is a file name 'os-release' may contains os information.'\nThe first try didn't work because my typo, then I run again in my local terminal and found that file." >> Assignment1.txt 
+  647  cat /etc/os-release >> Assignment1.txt 
+  648  nano Assignment1.txt 
+  649  echo -e "\nquestion 10" >> Assignment1.txt 
+  650  ls -l /etc/ | grep 'os'
+  651  ls -l /etc/ | grep 'os-release' >> Assignment1.txt 
+  652  echo -e "The 'rwxrwxrwx' is the permission of this file.\nIt means read, write, and execute permissions." >> Assignment1.txt 
+  653  nano Assignment1.txt 
+  654  ls -l
+  655  history
+bash-4.4$ history | tail -85 > cmds.log
+bash-4.4$ vi cmds.log[Kg 
+[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;32r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[32;1H"cmds.log" 85L, 3399C[1;3H572  mkdir Assignment1
+  573  ls -l
+  574  cd Assignment1/
+  575  touch Assignment1.txt
+  576  ls -l
+  577  echo "question 1" >> Assignment1.txt
+  578  echo "I use 'mkdir [foldername]' to create directory" >> Assignment1.txt
+  579  nano Assignment1.txt
+  580  echo "question 2" >> Assignment1.txt
+  581  echo $SHELL
+  582  echo $SHELL >> Assignment1.txt
+  583  echo "I use 'echo $SHELL'" >> Assignment1.txt
+  584  nano Assignment1.txt
+  585  echo -e "\nquestion 3" >> Assignment1.txt
+  586  pwd
+  587  pwd >> Assignment1.txt
+  588  nano Assignment1.txt
+  589  echo $HOME
+  590  echo $HOME >> Assignment1.txt
+  591  echo "I use echo $HOME" >> Assignment1.txt
+  592  nano Assignment1.txt
+  593  echo -e "\nquestion 3" >> Assignment1.txt
+  594  id -u
+  595  id -u >> Assignment1.txt
+  596  echo -e "I use 'id -u' to find UID" >> Assignment1.txt
+  597  groups
+  598  groups >> Assignment1.txt
+  599  echo -e "I use 'groups' to find groups of user" >> Assignment1.txt
+  600  echo -e "In order to find out command used, I can use 'history' to list command histt[30;1Hory.\nI can modify command such as 'history | grep [keyword]' to list by keyword.\nI can prr[31;1Hess CTRL + R and search command used." >> Assignment1.txt[1;3H[?25h
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  [?25l[1;31r[31;1H
+[1;32r[31;3H601  nano Assignment1.txt[32;1H[K[26;3H[?25h[?25l[1;31r[31;1H
+[1;32r[31;3H602  echo -e "\nquestion 4" >> Assignment1.txt[26;3H[?25h[?25l[1;31r[1;1H[3M[1;32r[29;3H603  mkdir myDir
+  604  ls
+  605  chmod u-w myDir/[24;3H[?25h[?25l[1;31r[31;1H
+[1;32r[31;3H606  echo "After use 'chmod' changed permission: " >> Assignment1.txt[26;3H[?25h[?25l[1;31r[31;1H
+[1;32r[31;3H607  ls -l >> Assignment1.txt[26;3H[?25h[?25l[1;31r[31;1H
+[1;32r[31;3H608  cd myDir/[26;3H[?25h[?25l[1;31r[31;1H
+[1;32r[31;3H609  echo "Yes, I can 'cd' into myDir directory." >> ../Assignment1.txt[26;3H[?25h[?25l[1;31r[31;1H
+[1;32r[31;3H610  ls -l[26;3H[?25h[?25l[1;31r[31;1H
+[1;32r[31;3H611  ls[26;3H[?25h[?25l[1;31r[31;1H
+[1;32r[31;3H612  echo "Yes, I can 'ls' and 'ls -l' myDir directory." >> ../Assignment1.txt[26;3H[?25h[?25l[1;31r[31;1H
+[1;32r[31;3H613  touch temp.txt[26;3H[?25h[?25l[1;31r[1;1H[3M[1;32r[29;3H614  echo "No, I can't create file in myDir directory. It show me error message that saidd[30;1H 'Permission denied'. Since I remove write permission for this directory, I won't be able tt[31;1Ho write." >> ../Assignment1.txt[24;3H[?25h
+  
+  [?25l[1;31r[31;1H
+[1;32r[31;3H615  echo -e "\nquestion 5" >> ../Assignment1.txt[26;3H[?25h[?25l[1;31r[31;1H
+[1;32r[31;3H616  cd ../[26;3H[?25h[?25l[1;31r[1;1H[3M[1;32r[29;3H617  ls -l
+  618  mkdir myDir2 myDir3
+  619  ls -l[24;3H[?25h[?25l[1;31r[31;1H
+[1;32r[31;3H620  ls -l >> Assignment1.txt[26;3H[?25h[?25l[1;31r[31;1H
+[1;32r[31;3H621  nano Assignment1.txt[26;3H[?25h[?25l[1;31r[31;1H
+[1;32r[31;3H622  echo -e "\nquestion 6.1" >> Assignment1.txt[26;3H[?25h[?25l[1;31r[31;1H
+[1;32r[31;3H623  touch myFile.txt[26;3H[?25h[?25l[1;31r[31;1H
+[1;32r[31;3H624  ls -l[26;3H[?25h[?25l[1;31r[31;1H
+[1;32r[31;3H625  rm myFile.txt[26;3H[?25h[?25l[1;31r[31;1H
+[1;32r[31;3H626  ls -l[26;3H[?25h[?25l[1;31r[1;1H[3M[1;32r[29;3H627  cd myDir2/
+  628  touch myFile.txt
+  629  ls -l[24;3H[?25h
+  
+  [?25l[1;31r[31;1H
+[1;32r[31;3H630  mv myFile.txt ../myDir3/[26;3H[?25h[?25l[1;31r[31;1H
+[1;32r[31;3H631  ls -l[26;3H[?25h[?25l[1;31r[31;1H
+[1;32r[31;3H632  ls -l ../myDir3/[26;3H[?25h[?25l[1;31r[31;1H
+[1;32r[31;3H633  ls -l ../myDir3/ >> ../Assignment1.txt[26;3H[?25h[?25l[1;31r[31;1H
+[1;32r[31;3H634  echo -e "\nquestion6.2" >> ../Assignment1.txt[26;3H[?25h[?25l[1;31r[31;1H
+[1;32r[31;3H635  free[26;3H[?25h[?25l[1;31r[31;1H
+[1;32r[31;3H636  man free[26;3H[?25h[?25l[1;31r[31;1H
+[1;32r[31;3H637  free -m[26;3H[?25h[?25l[1;31r[31;1H
+[1;32r[31;3H638  free -m >> ../Assignment1.txt[26;3H[?25h[?25l[1;31r[31;1H
+[1;32r[31;3H639  nano ../Assignment1.txt[26;3H[?25h[?25l[1;31r[31;1H
+[1;32r[31;3H640  cd ../[26;3H[?25h[?25l[1;31r[31;1H
+[1;32r[31;3H641  ls -l[26;3H[?25h[?25l[1;31r[31;1H
+[1;32r[31;3H642  echo -e "\nquestion 9" >> Assignment1.txt[26;3H[?25h[?25l[1;31r[1;1H[3M[1;32r[29;3H643  ls -l \etc
+  644  cat /etc/os-release
+  645  ls -l /etc/[24;3H[?25h
+  
+  [?25l[1;31r[1;1H[3M[1;32r[29;3H646  echo -e "After use 'ls -l /etc/' to list all file in '/etc/' directory, I find theree[30;1H is a file name 'os-release' may contains os information.'\nThe first try didn't work becauu[31;1Hse my typo, then I run again in my local terminal and found that file." >> Assignment1.txt[24;3H[?25h
+  
+  [?25l[1;31r[31;1H
+[1;32r[31;3H647  cat /etc/os-release >> Assignment1.txt[26;3H[?25h[?25l[1;31r[31;1H
+[1;32r[31;3H648  nano Assignment1.txt[26;3H[?25h[?25l[1;31r[1;1H[3M[1;32r[29;3H649  echo -e "\nquestion 10" >> Assignment1.txt
+  650  ls -l /etc/ | grep 'os'
+  651  ls -l /etc/ | grep 'os-release' >> Assignment1.txt[24;3H[?25h[?25l[1;31r[1;1H[2M[1;32r[30;3H652  echo -e "The 'rwxrwxrwx' is the permission of this file.\nIt means read, write, and  [31;1Hexecute permissions." >> Assignment1.txt[25;3H[?25h
+  [?25l[1;31r[31;1H
+[1;32r[31;3H653  nano Assignment1.txt[26;3H[?25h[?25l[1;31r[31;1H
+[1;32r[31;3H654  ls -l[26;3H[?25h[?25l[1;31r[31;1H
+[1;32r[31;3H655  history[26;3H[?25h[?25l[1;31r[31;1H
+[1;32r[31;3H656  history | tail -85 > cmds.log[26;3H[?25h
+
+  
+  
+  
+  [30;3H[29;3H[28;3H[26;3H[25;3H[24;3H[23;3H[22;3H[21;3H[18;3H[17;3H[16;3H[15;3H[14;3H[13;3H[12;3H[11;3H[10;3H[9;3H[8;3H[7;3H[6;3H[?25l[1;31r[1;1H[L[1;32r[1;3H628  touch myFile.txt[6;3H[?25h[?25l[1;31r[1;1H[L[1;32r[1;3H627  cd myDir2/[6;3H[?25h[?25l[1;31r[1;1H[L[1;32r[1;3H626  ls -l[6;3H[?25h[?25l[1;31r[1;1H[L[1;32r[1;3H625  rm myFile.txt[6;3H[?25h[?25l[1;31r[1;1H[L[1;32r[1;3H624  ls -l[31;1H[94m@@@                                                                                        [6;3H[?25h[?25l[1;31r[m[1;1H[L[1;32r[1;3H623  touch myFile.txt[6;3H[?25h[?25l[1;31r[1;1H[L[1;32r[1;3H622  echo -e "\nquestion 6.1" >> Assignment1.txt[6;3H[?25h[?25l[1;31r[1;1H[L[1;32r[1;3H621  nano Assignment1.txt[6;3H[?25h[?25l[1;31r[1;1H[L[1;32r[1;3H620  ls -l >> Assignment1.txt[6;3H[?25h[?25l[1;31r[1;1H[L[1;32r[1;3H619  ls -l[6;3H[?25h[?25l[1;31r[1;1H[L[1;32r[1;3H618  mkdir myDir2 myDir3[6;3H[?25h[?25l[1;31r[1;1H[L[1;32r[1;3H617  ls -l[31;1H[94m@@@                                                                                        [6;3H[?25h[?25l[1;31r[m[1;1H[L[1;32r[1;3H616  cd ../[31;1H[94m@@@                                                                                        [6;3H[?25h[?25l[1;31r[m[1;1H[L[1;32r[1;3H615  echo -e "\nquestion 5" >> ../Assignment1.txt[6;3H[?25h[?25l[1;31r[1;1H[3L[1;32r[1;3H614  echo "No, I can't create file in myDir directory. It show me error message that saidd[2;1H 'Permission denied'. Since I remove write permission for this directory, I won't be able tt[3;1Ho write." >> ../Assignment1.txt[8;3H[?25h[7;3H[6;3H[?25l[1;31r[1;1H[L[1;32r[1;3H613  touch temp.txt[6;3H[?25h[?25l[1;31r[1;1H[L[1;32r[1;3H612  echo "Yes, I can 'ls' and 'ls -l' myDir directory." >> ../Assignment1.txt[6;3H[?25h[?25l[1;31r[1;1H[3L[1;32r[1;3H609  echo "Yes, I can 'cd' into myDir directory." >> ../Assignment1.txt
+  610  ls -l
+  611  ls[6;3H[?25h[?25l[1;31r[1;1H[L[1;32r[1;3H608  cd myDir/[6;3H[?25h[?25l[1;31r[1;1H[L[1;32r[1;3H607  ls -l >> Assignment1.txt[6;3H[?25h[?25l[1;31r[1;1H[L[1;32r[1;3H606  echo "After use 'chmod' changed permission: " >> Assignment1.txt[6;3H[?25h[?25l[1;31r[1;1H[L[1;32r[1;3H605  chmod u-w myDir/[6;3H[?25h[?25l[1;31r[1;1H[L[1;32r[1;3H604  ls[6;3H[?25h[?25l[1;31r[1;1H[L[1;32r[1;3H603  mkdir myDir[6;3H[?25h[?25l[1;31r[1;1H[L[1;32r[1;3H602  echo -e "\nquestion 4" >> Assignment1.txt[6;3H[?25h[?25l[1;31r[1;1H[L[1;32r[1;3H601  nano Assignment1.txt[6;3H[?25h[?25l[1;31r[1;1H[3L[1;32r[1;3H600  echo -e "In order to find out command used, I can use 'history' to list command histt[2;1Hory.\nI can modify command such as 'history | grep [keyword]' to list by keyword.\nI can prr[3;1Hess CTRL + R and search command used." >> Assignment1.txt[8;3H[?25h[7;3H[6;3H[?25l[1;31r[1;1H[L[1;32r[1;3H599  echo -e "I use 'groups' to find groups of user" >> Assignment1.txt[6;3H[?25h[?25l[1;31r[1;1H[L[1;32r[1;3H598  groups >> Assignment1.txt[6;3H[?25h[?25l[1;31r[1;1H[3L[1;32r[1;3H595  id -u >> Assignment1.txt
+  596  echo -e "I use 'id -u' to find UID" >> Assignment1.txt
+  597  groups[6;3H[?25h[?25l[1;31r[1;1H[L[1;32r[1;3H594  id -u[6;3H[?25h[?25l[1;31r[1;1H[L[1;32r[1;3H593  echo -e "\nquestion 3" >> Assignment1.txt[6;3H[?25h[?25l[1;31r[1;1H[L[1;32r[1;3H592  nano Assignment1.txt[6;3H[?25h[?25l[1;31r[1;1H[L[1;32r[1;3H591  echo "I use echo $HOME" >> Assignment1.txt[6;3H[?25h[?25l[1;31r[1;1H[L[1;32r[1;3H590  echo $HOME >> Assignment1.txt[6;3H[?25h[?25l[1;31r[1;1H[L[1;32r[1;3H589  echo $HOME[6;3H[?25h[?25l[1;31r[1;1H[L[1;32r[1;3H588  nano Assignment1.txt[6;3H[?25h[?25l[1;31r[1;1H[L[1;32r[1;3H587  pwd >> Assignment1.txt[31;1H[94m@@@                                                                                        [6;3H[?25h[?25l[1;31r[m[1;1H[L[1;32r[1;3H586  pwd[31;1H[94m@@@                                                                                        [6;3H[?25h[?25l[1;31r[m[1;1H[L[1;32r[1;3H585  echo -e "\nquestion 3" >> Assignment1.txt[6;3H[?25h[?25l[1;31r[1;1H[L[1;32r[1;3H584  nano Assignment1.txt[6;3H[?25h[?25l[1;31r[1;1H[L[1;32r[1;3H583  echo "I use 'echo $SHELL'" >> Assignment1.txt[6;3H[?25h[?25l[1;31r[1;1H[L[1;32r[1;3H582  echo $SHELL >> Assignment1.txt[6;3H[?25h[?25l[1;31r[1;1H[L[1;32r[1;3H581  echo $SHELL[6;3H[?25h[?25l[1;31r[1;1H[L[1;32r[1;3H580  echo "question 2" >> Assignment1.txt[6;3H[?25h[?25l[1;31r[1;1H[L[1;32r[1;3H579  nano Assignment1.txt[6;3H[?25h[?25l[1;31r[1;1H[L[1;32r[1;3H578  echo "I use 'mkdir [foldername]' to create directory" >> Assignment1.txt[6;3H[?25h[?25l[1;31r[1;1H[L[1;32r[1;3H577  echo "question 1" >> Assignment1.txt[6;3H[?25h[?25l[1;31r[1;1H[L[1;32r[1;3H576  ls -l[6;3H[?25h[?25l[1;31r[1;1H[L[1;32r[1;3H575  touch Assignment1.txt[6;3H[?25h[?25l[1;31r[1;1H[L[1;32r[1;3H574  cd Assignment1/[6;3H[?25h[?25l[1;31r[1;1H[L[1;32r[1;3H573  ls -l[6;3H[?25h[?25l[1;31r[1;1H[L[1;32r[1;3H572  mkdir Assignment1[6;3H[?25h[5;3H[4;3H[3;3H[2;3H[1;3H[?25l[32;1H:[?2004h[?25hq[?25l[?2004l[32;1H[K[32;1H[?2004l[?1l>[?25h[?1049l[23;0;0tbash-4.4$ exit
+exit
+
+Script done on 2024-02-22 17:59:21-05:00

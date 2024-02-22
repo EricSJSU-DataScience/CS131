@@ -1,0 +1,85 @@
+  572  mkdir Assignment1
+  573  ls -l
+  574  cd Assignment1/
+  575  touch Assignment1.txt
+  576  ls -l
+  577  echo "question 1" >> Assignment1.txt 
+  578  echo "I use 'mkdir [foldername]' to create directory" >> Assignment1.txt 
+  579  nano Assignment1.txt 
+  580  echo "question 2" >> Assignment1.txt 
+  581  echo $SHELL
+  582  echo $SHELL >> Assignment1.txt 
+  583  echo "I use 'echo $SHELL'" >> Assignment1.txt 
+  584  nano Assignment1.txt 
+  585  echo -e "\nquestion 3" >> Assignment1.txt 
+  586  pwd
+  587  pwd >> Assignment1.txt 
+  588  nano Assignment1.txt 
+  589  echo $HOME
+  590  echo $HOME >> Assignment1.txt 
+  591  echo "I use echo $HOME" >> Assignment1.txt 
+  592  nano Assignment1.txt 
+  593  echo -e "\nquestion 3" >> Assignment1.txt 
+  594  id -u
+  595  id -u >> Assignment1.txt 
+  596  echo -e "I use 'id -u' to find UID" >> Assignment1.txt 
+  597  groups
+  598  groups >> Assignment1.txt 
+  599  echo -e "I use 'groups' to find groups of user" >> Assignment1.txt 
+  600  echo -e "In order to find out command used, I can use 'history' to list command history.\nI can modify command such as 'history | grep [keyword]' to list by keyword.\nI can press CTRL + R and search command used." >> Assignment1.txt 
+  601  nano Assignment1.txt 
+  602  echo -e "\nquestion 4" >> Assignment1.txt 
+  603  mkdir myDir
+  604  ls
+  605  chmod u-w myDir/
+  606  echo "After use 'chmod' changed permission: " >> Assignment1.txt 
+  607  ls -l >> Assignment1.txt 
+  608  cd myDir/
+  609  echo "Yes, I can 'cd' into myDir directory." >> ../Assignment1.txt 
+  610  ls -l
+  611  ls 
+  612  echo "Yes, I can 'ls' and 'ls -l' myDir directory." >> ../Assignment1.txt 
+  613  touch temp.txt
+  614  echo "No, I can't create file in myDir directory. It show me error message that said 'Permission denied'. Since I remove write permission for this directory, I won't be able to write." >> ../Assignment1.txt 
+  615  echo -e "\nquestion 5" >> ../Assignment1.txt 
+  616  cd ../
+  617  ls -l
+  618  mkdir myDir2 myDir3
+  619  ls -l
+  620  ls -l >> Assignment1.txt 
+  621  nano Assignment1.txt 
+  622  echo -e "\nquestion 6.1" >> Assignment1.txt 
+  623  touch myFile.txt
+  624  ls -l
+  625  rm myFile.txt
+  626  ls -l
+  627  cd myDir2/
+  628  touch myFile.txt
+  629  ls -l
+  630  mv myFile.txt ../myDir3/
+  631  ls -l
+  632  ls -l ../myDir3/
+  633  ls -l ../myDir3/ >> ../Assignment1.txt 
+  634  echo -e "\nquestion6.2" >> ../Assignment1.txt 
+  635  free
+  636  man free
+  637  free -m
+  638  free -m >> ../Assignment1.txt 
+  639  nano ../Assignment1.txt 
+  640  cd ../
+  641  ls -l
+  642  echo -e "\nquestion 9" >> Assignment1.txt 
+  643  ls -l \etc
+  644  cat /etc/os-release
+  645  ls -l /etc/
+  646  echo -e "After use 'ls -l /etc/' to list all file in '/etc/' directory, I find there is a file name 'os-release' may contains os information.'\nThe first try didn't work because my typo, then I run again in my local terminal and found that file." >> Assignment1.txt 
+  647  cat /etc/os-release >> Assignment1.txt 
+  648  nano Assignment1.txt 
+  649  echo -e "\nquestion 10" >> Assignment1.txt 
+  650  ls -l /etc/ | grep 'os'
+  651  ls -l /etc/ | grep 'os-release' >> Assignment1.txt 
+  652  echo -e "The 'rwxrwxrwx' is the permission of this file.\nIt means read, write, and execute permissions." >> Assignment1.txt 
+  653  nano Assignment1.txt 
+  654  ls -l
+  655  history
+  656  history | tail -85 > cmds.log

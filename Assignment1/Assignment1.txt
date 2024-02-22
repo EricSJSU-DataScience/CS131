@@ -1,0 +1,71 @@
+question 1
+I use 'mkdir [foldername]' to create directory
+
+question 2.1
+/bin/bash
+I use 'echo $SHELL'
+
+question 2.2
+/mnt/scratch/SP24_CS131_Jyotika/ericsp24
+I use 'echo $HOME'
+
+question 3
+1212
+I use 'id -u' to find UID
+ericsp24 S78
+I use 'groups' to find groups of user
+In order to find out command used, I can use 'history' to list command history.
+I can modify command such as 'history | grep [keyword]' to list by keyword.
+I can press CTRL + R and search command used.
+
+question 4
+After use 'chmod' changed permission: 
+total 8
+-rw-rw-r-- 1 ericsp24 ericsp24  523 Feb 22 17:30 Assignment1.txt
+dr-xrwxr-x 2 ericsp24 ericsp24 4096 Feb 22 17:29 myDir
+Yes, I can 'cd' into myDir directory.
+Yes, I can 'ls' and 'ls -l' myDir directory.
+No, I can't create file in myDir directory. It show me error message that said 'Permission denied'. Since I remove write permission for this directory, I won't be able to write.
+
+question 5
+total 16
+-rw-rw-r-- 1 ericsp24 ericsp24  924 Feb 22 17:36 Assignment1.txt
+dr-xrwxr-x 2 ericsp24 ericsp24 4096 Feb 22 17:29 myDir
+drwxrwxr-x 2 ericsp24 ericsp24 4096 Feb 22 17:37 myDir2
+drwxrwxr-x 2 ericsp24 ericsp24 4096 Feb 22 17:37 myDir3
+
+question 6.1
+total 0
+-rw-rw-r-- 1 ericsp24 ericsp24 0 Feb 22 17:40 myFile.txt
+
+question 6.2
+              total        used        free      shared  buff/cache   available
+Mem:          71367       30739       22310        3587       18318       35582
+Swap:          4119           0        4119
+
+question 9
+After use 'ls -l /etc/' to list all file in '/etc/' directory, I find there is a file name 'os-release' may contains os information.'
+The first try didn't work because my typo, then I run again in my local terminal and found that file.
+
+NAME="Red Hat Enterprise Linux"
+VERSION="8.6 (Ootpa)"
+ID="rhel"
+ID_LIKE="fedora"
+VERSION_ID="8.6"
+PLATFORM_ID="platform:el8"
+PRETTY_NAME="Red Hat Enterprise Linux 8.6 (Ootpa)"
+ANSI_COLOR="0;31"
+CPE_NAME="cpe:/o:redhat:enterprise_linux:8::baseos"
+HOME_URL="https://www.redhat.com/"
+DOCUMENTATION_URL="https://access.redhat.com/documentation/red_hat_enterprise_linux/8/"
+BUG_REPORT_URL="https://bugzilla.redhat.com/"
+
+REDHAT_BUGZILLA_PRODUCT="Red Hat Enterprise Linux 8"
+REDHAT_BUGZILLA_PRODUCT_VERSION=8.6
+REDHAT_SUPPORT_PRODUCT="Red Hat Enterprise Linux"
+REDHAT_SUPPORT_PRODUCT_VERSION="8.6"
+
+question 10
+lrwxrwxrwx.  1 root root       22 Apr  6  2022 os-release -> ..//usr/lib/os-release
+The 'rwxrwxrwx' is the permission of this file.
+It means read, write, and execute permissions.
