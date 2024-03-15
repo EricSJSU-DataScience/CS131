@@ -1,0 +1,117 @@
+  957  base date.sh
+  958  bash date.sh
+  959  ls -l
+  960  cd ../practice2
+  961  ls -l
+  962  vi infiDate.sh
+  963  ps aux | grep infiDate.sh
+  964  ls
+  965  bash infiDate.sh &
+  966  bg
+  967  fg
+  968  cat infiDate.sh 
+  969  nano infiDate.sh 
+  970  ls
+  971  echo "nice value: the lower number mean more priority" >> note.txt 
+  972  top
+  973  clear
+  974  echo "next topic is tmux"
+  975  echo "next topic is tmux" >> note.txt 
+  976  echo "ctrl + L = clear terminal" >> note.txt 
+  977  tmux
+  978  tmux ls
+  979  tmux
+  980  tmux attach
+  981  tmux ls
+  982  tmux attach
+  983  tmux ls
+  984  tmux attach
+  985  tail history
+  986  history | tail -50 > cmds.log
+  987  vi cmds.log 
+  988  tmux attach
+  989  tmux kill-session -t 0
+  990  tmux ls
+  991  tmux
+  992  history | tail
+  993  tmux attach
+  994  tmux ls
+  995  history | tail
+  996  tmux
+  997  exit
+
+
+
+Assignment2 start here
+
+  998  cd cs131/
+  999  ls -l
+ 1000  mkdir Assignment2
+ 1001  cd Assignment2
+ 1002  touch Assignment2.txt
+
+
+ 1003  echo -e "Question 1" >> Assignment2.txt 
+ 1004  find /etc -type f > one.txt 2> two.txt
+ 1005  echo -e "a. This command use find to search in the directory /etc which type is regular file, then store the output into one.txt and error into two.txt" >> Assignment2.txt 
+ 1006  cat one.txt
+ 1007  echo -e "b. In one.txt, there are a lot of .conf files and directory name such as sysconfig;profile;java are belongs to either system or application.\nSo, all those files are system or application configuration files." >> Assignment2.txt 
+ 1008  cat two.txt
+ 1009  echo -e "   In two.txt, there are 12 lines that is  error messages. The reason of errors are all Permission denied which means I don't have permission to access it." >> Assignment2.txt 
+
+
+ 1010  echo -e "\nQuestion 2" >> Assignment2.txt 
+ 1011  wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/Global%20YouTube%20Statistics.csv
+ 1012  ls -l
+ 1013  man cut
+ 1014  man sort
+ 1015  man uniq
+ 1016  man cut
+ 1017  cut -d',' -f20,21 Global\ YouTube\ Statistics.csv 
+ 1018  cut -d',' -f20,21 Global\ YouTube\ Statistics.csv | uniq -c
+ 1019  cut -d',' -f20,21 Global\ YouTube\ Statistics.csv | sort | uniq -c
+ 1020  cut -d',' -f20,21 Global\ YouTube\ Statistics.csv | sort | uniq -c | sort -nr | head -n 3
+ 1021  echo -e "1. March,2006 with 15 channels\n2. July,2014 with 13 channels\n3. August,2014 with 12 channels\nThe commands used to find it was this: cut -d',' -f20,21 Global\ YouTube\ Statistics.csv | sort | uniq -c | sort -nr | head -n 3" >> Assignment2.txt
+ 1022  echo -e "use cut command: -d',' means the delimiter is a comma, consider seperate colomns by each comma\n                 -f20,21 means select 20 and 21 columns that is data of year and month.\npipe sort command: sort the previous result, without it uniq won't work as expected\npipe uniq command: -c means find the unique count from previous result\npipe sort -nr: -n means numerical value   -r means reverse order  This will sort them to descending order\npipe head command: -n 3 means output 3 line from beginning" >> Assignment2.txt
+ 1023  vi Assignment2.txt 
+ 1024  echo "Note: This answer confirmed in Rstudio and thanks god I take R class this semester, so much easy using tidyverse to find answer of this question." >> Assignment2.txt 
+
+
+ 1025  echo "\Question 3" >> Assignment2.txt 
+ 1026  man ps
+ 1027  ps -u $USER
+ 1028  ps aux -u $USER
+ 1029  man ps
+ 1030  ps -u $USER -f
+ 1031  echo -e "The command used to find it was this: ps -u $USER -f\nOutput:" >> Assignment2.txt 
+ 1032  ps -u $USER -f >> Assignment2.txt 
+
+
+ 1033  echo -e "\nQuestion 4" >> Assignment2.txt 
+ 1034  echo -e "b. output:" >> Assignment2.txt 
+ 1035  man tee
+ 1036  ps -u $USER -f | tee -a Assignment2.txt 
+ 1037  vi Assignment2.txt 
+ 1038  echo -e "I can see the other terminal's process show up in the result. The process ID for the vim is 1207465." >> Assignment2.txt 
+ 1039  echo -e "d. output:" >> Assignment2.txt 
+ 1040  ps -u $USER -f | tee -a Assignment2.txt 
+ 1041  echo -e "After close another terminal's vim and run ps command again, I noticed that vim process dispeared. \nThis is because another termial end the vim session means vim process end as well." >> Assignment2.txt 
+ 1042  cat Assignment2.txt | tail 
+ 1043  vi Assignment2.txt 
+
+
+ 1044  echo -e "\nQuestion 5" >> Assignment2.txt 
+ 1045  ps aux | grep init
+ 1046  ps aux | grep systemd
+ 1047  echo -e "The init process is the first process that runs once the system boots up" >> Assignment2.txt 
+ 1048  echo -e "The process id is 1" >> Assignment2.txt 
+ 1049  echo -e "I use command: ps aux | grep systemd\nOutput:" >> Assignment2.txt 
+ 1050  ps aux | grep systemd >> Assignment2.txt 
+ 1051  echo -e "pid 1: init process; other pids are for other users" >> Assignment2.txt 
+
+
+ 1052  echo -e "\nQuestion 6" >> Assignment2.txt
+ 1053  man ps
+ 1054  echo -e "The ps aux is used to display information about all running processes.\na: list all process with `x`\n means display user-oriented format\nx: list all process when used with option `a`." >> Assignment2.txt
+ 1055  vi Assignment2.txt 
+ 1056  history | tail -100 > cmds.log

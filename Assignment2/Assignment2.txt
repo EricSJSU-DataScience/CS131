@@ -1,0 +1,95 @@
+Question 1
+a. This command use find to search in the directory /etc which type is regular file, then store the output into one.txt and error into two.txt
+b. In one.txt, there are a lot of .conf files and directory name such as sysconfig;profile;java are belongs to either system or application.
+So, all those files are system or application configuration files.
+   In two.txt, there are 12 lines that is  error messages. The reason of errors are all Permission denied which means I don't have permission to access it.
+
+
+Question 2
+1. March,2006 with 15 channels
+2. July,2014 with 13 channels
+3. August,2014 with 12 channels
+The commands used to find it was this: cut -d',' -f20,21 Global\ YouTube\ Statistics.csv | sort | uniq -c | sort -nr | head -n 3
+use cut command: -d',' means the delimiter is a comma, consider seperate colomns by each comma
+                 -f20,21 means select 20 and 21 columns that is data of year and month.
+pipe sort command: sort the previous result, without it uniq won't work as expected
+pipe uniq command: -c means find the unique count from previous result
+pipe sort -nr: -n means numerical value   -r means reverse order  This will sort them to descending order
+pipe head command: -n 3 means output 3 line from beginning
+Note: This answer confirmed in Rstudio and thanks god I take R class this semester, so much easy using tidyverse to find answer of this question.
+
+
+Question 3
+The command used to find it was this: ps -u ericsp24 -f
+Output:
+UID          PID    PPID  C STIME TTY          TIME CMD
+ericsp24 1193708       1  0 07:10 ?        00:00:01 /usr/lib/systemd/systemd --user
+ericsp24 1193710 1193708  0 07:10 ?        00:00:00 (sd-pam)
+ericsp24 1193716 1193691  0 07:10 ?        00:00:00 sshd: ericsp24@pts/1
+ericsp24 1193718 1193716  0 07:10 pts/1    00:00:00 -bash
+ericsp24 1206059 1193718  0 07:47 pts/1    00:00:00 ps -u ericsp24 -f
+
+
+Question 4
+b. output:
+UID          PID    PPID  C STIME TTY          TIME CMD
+ericsp24 1193708       1  0 07:10 ?        00:00:01 /usr/lib/systemd/systemd --user
+ericsp24 1193710 1193708  0 07:10 ?        00:00:00 (sd-pam)
+ericsp24 1193716 1193691  0 07:10 ?        00:00:00 sshd: ericsp24@pts/1
+ericsp24 1193718 1193716  0 07:10 pts/1    00:00:00 -bash
+ericsp24 1207072 1206909  0 07:50 ?        00:00:00 sshd: ericsp24@pts/0
+ericsp24 1207073 1207072  0 07:50 pts/0    00:00:00 -bash
+ericsp24 1207465 1207073  0 07:51 pts/0    00:00:00 vim file.txt
+ericsp24 1209007 1193718  0 07:56 pts/1    00:00:00 ps -u ericsp24 -f
+ericsp24 1209008 1193718  0 07:56 pts/1    00:00:00 tee -a Assignment2.txt
+
+I can see the other terminal's process show up in the result. The process ID for the vim is 1207465.
+
+d. output:
+UID          PID    PPID  C STIME TTY          TIME CMD
+ericsp24 1193708       1  0 07:10 ?        00:00:02 /usr/lib/systemd/systemd --user
+ericsp24 1193710 1193708  0 07:10 ?        00:00:00 (sd-pam)
+ericsp24 1193716 1193691  0 07:10 ?        00:00:00 sshd: ericsp24@pts/1
+ericsp24 1193718 1193716  0 07:10 pts/1    00:00:00 -bash
+ericsp24 1207072 1206909  0 07:50 ?        00:00:00 sshd: ericsp24@pts/0
+ericsp24 1207073 1207072  0 07:50 pts/0    00:00:00 -bash
+ericsp24 1211209 1193718  0 08:03 pts/1    00:00:00 ps -u ericsp24 -f
+ericsp24 1211210 1193718  0 08:03 pts/1    00:00:00 tee -a Assignment2.txt
+
+After close another terminal's vim and run ps command again, I noticed that vim process dispeared. 
+This is because another termial end the vim session means vim process end as well.
+
+
+Question 5
+The init process is the first process that runs once the system boots up
+The process id is 1
+I use command: ps aux | grep systemd
+
+Output:
+root           1  0.6  0.0 178496 18304 ?        Ss    2023 794:03 /usr/lib/systemd/systemd --switched-root --system --deserialize 18
+root        2951  0.0  0.4 447808 348544 ?       Ss    2023 113:25 /usr/lib/systemd/systemd-journald
+root        2998  0.0  0.0  56512 15680 ?        Ss    2023   0:07 /usr/lib/systemd/systemd-udevd
+dbus        3706  0.3  0.0  16512 10496 ?        Ss    2023 513:24 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root        3746  0.0  0.0  35776 14208 ?        Ss    2023  87:35 /usr/lib/systemd/systemd-logind
+conners+   86087  0.0  0.0  28672 15104 ?        Ss   Mar13   1:52 /usr/lib/systemd/systemd --user
+gradysp+  105881  0.0  0.0  28736 15168 ?        Ss   Mar13   1:47 /usr/lib/systemd/systemd --user
+ericsp24 1193708  0.0  0.0  28608 15040 ?        Ss   07:10   0:02 /usr/lib/systemd/systemd --user
+ericsp24 1214683  0.0  0.0   8320  1856 pts/1    S+   08:14   0:00 grep --color=auto systemd
+justins+ 2060795  0.0  0.0  28736 15168 ?        Ss   Feb22  18:41 /usr/lib/systemd/systemd --user
+jessesp+ 2073814  0.0  0.0  28736 15168 ?        Ss   Feb22  19:49 /usr/lib/systemd/systemd --user
+atishay+ 2248654  0.0  0.0  28736 15168 ?        Ss   Feb08  28:11 /usr/lib/systemd/systemd --user
+hardiks+ 2379540  0.0  0.0  28736 15168 ?        Ss   Feb23  17:09 /usr/lib/systemd/systemd --user
+diyasp24 2422345  0.0  0.0  28736 15232 ?        Ss   Feb09  27:02 /usr/lib/systemd/systemd --user
+sangsp24 2492008  0.0  0.0  28736 15168 ?        Ss   Feb24  17:34 /usr/lib/systemd/systemd --user
+alexsp24 3304023  0.0  0.0  28736 15168 ?        Ss   Mar11   3:50 /usr/lib/systemd/systemd --user
+jyotika  3312757  0.0  0.0  28736 15168 ?        Ss   Mar11   3:50 /usr/lib/systemd/systemd --user
+gursimr+ 3854249  0.0  0.0  28736 15232 ?        Ss   Feb28  14:40 /usr/lib/systemd/systemd --user
+
+pid 1: init process; other pids are for other users
+
+
+Question 6
+The ps aux is used to display information about all running processes.
+a: list all process with `x` 
+n: means display user-oriented format
+x: list all process when used with option `a`
