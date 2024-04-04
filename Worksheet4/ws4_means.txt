@@ -1,0 +1,4 @@
+Average of the number of subscribers in United States:
+2.34169e+07
+Average of the number of subscribers in India:
+2.56583e+07

@@ -1,0 +1,28 @@
+-eTask 3:\n1.
+Hi, John Doe!
+Hi, Jane Doe!
+Greetings, John Smith!
+Hi, Michael Johnson!
+Hi, Emily Davis!
+
+
+2.
+Greetings, John Smith!
+Hello, Michael Johnson!
+Hi, Emily Davis!
+
+
+3.
+Hello, John Doe!(edited)
+Hi, Jane Doe!(edited)
+Greetings, John Smith!(edited)
+Hello, Michael Johnson!(edited)
+Hi, Emily Davis!(edited)
+
+
+4.
+Hello, John Doe!
+Hi, Jane Doe!
+Greetings, John Smith!
+Hello, Mike Johnson!
+Hi, Emily Davis!
