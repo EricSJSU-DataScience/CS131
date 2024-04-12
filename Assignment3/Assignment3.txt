@@ -1,0 +1,137 @@
+Assignment 3
+Task 1:
+
+1. The number of lines in last.fake before filtering
+507 last.fake
+
+2. The command used to solve
+sed -n '/sp24/p' last.fake > lastsp24.fake
+
+3. The number of lines in lastsp24.fake
+478 lastsp24.fake
+
+Task 2:
+
+The command used to solve: awk '/Sun/ {print $1}' lastsp24.fake | sort -u
+
+The list of people who worked on Sunday are:
+aayushsp24
+akashsp24
+billysp24
+breannasp24
+briansp24
+chih-kuosp24
+fnusp24
+gavinsp24
+megansp24
+michellesp24
+swansp24
+xuebosp24
+
+Task 3:
+
+The command used to solve: sed -En '/^.*(([2][3])|([0][0-3])):[0-5][0-9] - ((([2][3])|([0][0-3]))|(04:00))/p' lastsp24.fake | awk '{print }' | sort -u 
+
+Night Owls List:
+aarushisp24
+aayushsp24
+ajaysp24
+akashsp24
+albertsp24
+alexsp24
+amansp24
+athishsp24
+ayesp24
+billysp24
+brandonsp24
+breannasp24
+daosp24
+davidsp24
+diyasp24
+dylansp24
+edisonsp24
+gavinsp24
+georgesp24
+gradysp24
+gursimransp24
+jadonsp24
+jaydevsp24
+jimmysp24
+justinsp24
+khushisp24
+kobesp24
+madhavsp24
+manassp24
+matthewsp24
+maysp24
+megansp24
+nicolesp24
+ronsp24
+sandrasp24
+sangsp24
+sheelsp24
+sunidhisp24
+tylermsp24
+tylersp24
+vaikuntamsp24
+xiaokesp24
+xuebosp24
+yelinsp24
+zakisp24
+
+Task 4:
+
+The command used to solve: sed -En '/^.*([0][5-8]):[0-5][0-9] - (([0][5-8])|(09:00))/p' lastsp24.fake | awk '{print }' | sort -u
+
+Early Birds List:
+aayushsp24
+ajaysp24
+ericsp24
+gradysp24
+ronsp24
+
+Task 5:
+
+The command used to solve: sed -n '/^t/p' lastsp24.fake | awk '{print }' | sort -u
+
+Output of command:
+taliasp24
+tanishasp24
+tylermsp24
+tylersp24
+
+Task 6:
+
+The command used to solve: awk -F: ' ~ /^a/ && %2 == 0 {print }' passwd.fake | sort -u
+
+Output of command:
+aayushsp24
+acesp24
+ajay23fa
+ajaysp24
+akashsp24
+alan23fa
+alexsp24
+amansp24
+amreenf23
+angie23fa
+apple23fa
+areebah23fa
+ashish
+ayesp24
+
+Task 7:
+
+The command used to solve: sed -e 's/[a-Z]//g; s/[0-9]//g; s/ //g' passwd.fake | sort -u
+
+Output of command:
+-::::-:/://
+-:::::///-://
+-:::::///__/-://
+-:::::/://
+::::-:///://
+:::::///://
+:::::///_/://
+:::::///__/://
+::::://://
+:::::/://

@@ -1,0 +1,122 @@
+ 1000  cd cs131
+ 1001  ls
+
+Assignment 3
+ 
+ 1002  echo "-----Start working on Assignment3-----"
+ 1003  mkdir Assignment3
+ 1004  cd Assignment3
+ 1005  wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/last.fake
+ 1006  wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/passwd.fake
+
+
+Task 1
+
+ 1007  echo -e "Assignment 3\nTask 1:\n" >> Assignment3.txt
+ 1008  man last
+ 1009  echo -e "1. The number of lines in last.fake before filtering\n" >> Assignment3.txt 
+ 1010  man tee
+ 1011  wc -l last.fake | tee -a Assignment3.txt 
+ 1012  echo -e "\n2. The command used to solve" >> Assignment3.txt 
+ 1013  sed '\sp24\p' last.fake > lastsp24.fake
+ 1014  sed '/sp24/p' last.fake > lastsp24.fake
+ 1015  vi lastsp24.fake
+ 1016  sed -n '/sp24/p' last.fake > lastsp24.fake
+ 1017  vi lastsp24.fake 
+ 1018  echo -e "sed -n '/sp24/p' last.fake > lastsp24.fake" >> Assignment3.txt
+ 1019  echo -e "\n3. The number of lines in lastsp24.fake" >> Assignment3.txt 
+ 1020  wc -l lastsp24.fake | tee -a Assignment3.txt
+ 1021  vi Assignment3.txt 
+
+
+Task 2
+
+ 1022  echo -e "\nTask 2:" >> Assignment3.txt 
+ 1023  awk '/Sun/ {print $1}' lastsp24.fake > temp
+ 1024  vi temp
+ 1025  awk '/Sun/ {print $1}' lastsp24.fake | sort -u > temp
+ 1026  vi temp
+ 1027  echo -e "\nThe command used to solve: awk '/Sun/ {print \$1}' lastsp24.fake | sort -u\n\nThe list of people who worked on Sunday are:" >> Assignment3.txt
+ 1028  awk '/Sun/ {print $1}' lastsp24.fake | sort -u >> Assignment3.txt 
+ 1029  vi Assignment3.txt 
+
+
+Task 3
+
+ 1030  echo -e "\nTask 3:\n" >> Assignment3.txt
+ 1031  awk '1,5 {print $6, $8}' lastsp24.fake > temp
+ 1032  vi temp
+ 1033  sed -n '/^.*(([2][3])|([0][0-3])):[0-5][0-9] - ((([2][3])|([0][0-3]))|(04:00))/p' lastsp24.fake > temp
+ 1034  vi temp
+ 1035  man sed
+ 1036  sed -En '/^.*(([2][3])|([0][0-3])):[0-5][0-9] - ((([2][3])|([0][0-3]))|(04:00))/p' lastsp24.fake > temp
+ 1037  vi temp
+ 1038  sed -En '/^.*(([2][3])|([0][0-3])):[0-5][0-9] - ((([2][3])|([0][0-3]))|(04:00))/p' lastsp24.fake | awk '{print $1}' > temp
+ 1039  vi temp
+ 1040  sed -En '/^.*(([2][3])|([0][0-3])):[0-5][0-9] - ((([2][3])|([0][0-3]))|(04:00))/p' lastsp24.fake | awk '{print $1}' | sort -u > temp
+ 1041  vi temp
+ 1042  echo -e "The command used to solve: sed -En '/^.*(([2][3])|([0][0-3])):[0-5][0-9] - ((([2][3])|([0][0-3]))|(04:00))/p' lastsp24.fake | awk '{print $1}' | sort -u " >> Assignment3.txt 
+ 1043  echo -e "\nNight Owls List:" >> Assignment3.txt
+ 1044  sed -En '/^.*(([2][3])|([0][0-3])):[0-5][0-9] - ((([2][3])|([0][0-3]))|(04:00))/p' lastsp24.fake | awk '{print $1}' | sort -u >> Assignment3.txt 
+ 1045  vi Assignment3.txt 
+
+
+Task 4
+
+ 1046  echo -e "\nTask 4:\n" >> Assignment3.txt 
+ 1047  sed -En '/^.*([0][5-8]):[0-5][0-9] - (([0][5-8])|(09:00))/p' lastsp24.fake | awk '{print $1}' | sort -u > temp
+ 1048  vi temp
+ 1049  echo -e "The command used to solve: sed -En '/^.*([0][5-8]):[0-5][0-9] - (([0][5-8])|(09:00))/p' lastsp24.fake | awk '{print $1}' | sort -u" >> Assignment3.txt
+ 1050  echo -e "\nEarly Birds List:" >> Assignment3.txt 
+ 1051  sed -En '/^.*([0][5-8]):[0-5][0-9] - (([0][5-8])|(09:00))/p' lastsp24.fake | awk '{print $1}' | sort -u >> Assignment3.txt 
+ 1052  vi Assignment3.txt 
+
+
+Task 5
+
+ 1053  echo -e "\nTask 5:" >> Assignment3.txt 
+ 1054  sed -n '/^t/p' lastsp24.fake > temp
+ 1055  vi temp
+ 1056  sed -n '/^t/p' lastsp24.fake | awk '{print $1}' > temp
+ 1057  vi temp
+ 1058  sed -n '/^t/p' lastsp24.fake | awk '{print $1}' | sort -u > temp
+ 1059  vi temp
+ 1060  echo -e "\nThe command used to solve: sed -n '/^t/p' lastsp24.fake | awk '{print $1}' | sort -u" >> Assignment3.txt 
+ 1061  echo -e "\nOutput of command:" >> Assignment3.txt
+ 1062  sed -n '/^t/p' lastsp24.fake | awk '{print $1}' | sort -u >> Assignment3.txt 
+ 1063  vi Assignment3.txt 
+
+
+Task 6
+
+ 1064  echo -e "\nTask 6:" >> Assignment3.txt
+ 1065  awk -F: '{$1 == /^a/} {print }' passwd.fake > temp
+ 1066  vi temp
+ 1067  awk -F: '{$1 ~ /^a/} {print }' passwd.fake > temp
+ 1068  vi temp
+ 1069  awk -F: '$1 ~ /^a/ {print }' passwd.fake > temp
+ 1070  vi temp
+ 1071  awk -F: '$1 ~ /^a/ && $3%2 == 0 {print }' passwd.fake > temp
+ 1072  vi temp
+ 1073  awk -F: '$1 ~ /^a/ && $3%2 == 0 {print $1}' passwd.fake | sort -u > temp
+ 1074  vi temp
+ 1075  echo -e "\nThe command used to solve: awk -F: '$1 ~ /^a/ && $3%2 == 0 {print $1}' passwd.fake | sort -u" >> Assignment3.txt 
+ 1076  echo -e "\nOutput of command:" >> Assignment3.txt 
+ 1077  awk -F: '$1 ~ /^a/ && $3%2 == 0 {print $1}' passwd.fake | sort -u >> Assignment3.txt 
+ 1078  vi Assignment3.txt 
+
+
+Task 7
+
+ 1079  echo -e "\nTask 7:" >> Assignment3.txt 
+ 1080  sed 's/[A-z]//g; s/[0-9]//g; s/ //g' passwd.fake > temp
+ 1081  sed -e 's/[A-z]//g; s/[0-9]//g; s/ //g' passwd.fake > temp
+ 1082  sed -e 's/[a-Z]//g; s/[0-9]//g; s/ //g' passwd.fake > temp
+ 1083  vi temp
+ 1084  sed -e 's/[a-Z]//g; s/[0-9]//g; s/ //g' passwd.fake | sort -u > temp
+ 1085  vi temp
+ 1086  echo -e "\nThe command used to solve: sed -e 's/[a-Z]//g; s/[0-9]//g; s/ //g' passwd.fake | sort -u" >> Assignment3.txt
+ 1087  echo -e "\nOutput of command:" >> Assignment3.txt 
+ 1088  sed -e 's/[a-Z]//g; s/[0-9]//g; s/ //g' passwd.fake | sort -u >> Assignment3.txt 
+ 1089  vi Assignment3.txt 
+ 1090  history | tail -n 150 > cmds.log
