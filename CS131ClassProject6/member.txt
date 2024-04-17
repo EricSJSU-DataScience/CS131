@@ -1,0 +1,11 @@
+class project member list:
+Dao Cao
+Eric Zhao
+Nicholson Alforque
+Xiaoke Ran
+
+class project note about dataset:
+We discuss and decide to use a dataset about "Financial Fraud Detection Dataset". However, this dataset have more than 6 million records. We decide to just use part of the dataset. I use the following command to use first 1/6 of the dataset:
+sed -n '1,1060436 p' Synthetic_Financial_datasets_log.csv > Financial_datasets_partial.csv
+
+
