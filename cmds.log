@@ -1,0 +1,150 @@
+  860  awk '/.../ {print}' a1.txt 
+  861  ls ../
+  862  ls ../practice
+  863  cp ../practice/spotify-2023.csv ./
+  864  awk 'BEGIN { print "Postys music is below :"} /[pP]ost Malone/ {print}' spotify-2023.csv 
+  865  awk 'BEGIN { print "Postys music is below :"} /[pP]ost Malone/ {print $4}' spotify-2023.csv 
+  866  awk 'BEGIN {lc=0} // {lc++} END {print lc}' spotify-2023.csv 
+  867  awk 'BEGIN {lc=0} /20[18-20]/ {lc++} END {print lc}' spotify-2023.csv 
+  868  awk 'BEGIN {lc=0} /20[18,19,20]/ {lc++} END {print lc}' spotify-2023.csv 
+  869  awk 'BEGIN {i=1} i<4 {print; i++}' spotify-2023.csv 
+  870  awk '/Post Malone/ || /Taylor Swift/ {print}' spotify-2023.csv 
+  871  awk '/Post Malone/ || /Taylor Swift/ {print}' spotify-2023.csv | wc -l
+  872  awk 'BEGIN {lc=0} // {lc++} END {print lc}' spotify-2023.csv | wc -l
+  873  awk 'BEGIN {lc=0} // {lc++} END {print lc}' spotify-2023.csv
+  874  cat spotify-2023.csv | wc -l
+  875  clear
+  876  exit
+  877  cd cs131/Worksheet3
+  878  vi ws3.txt
+  879  exit
+  880  who
+  881  cd cs131/
+  882  mkdir Worksheet3
+  883  ls Assignment2
+  884  cp Assignment2/Global\ YouTube\ Statistics.csv Worksheet3/
+  885  ls Worksheet3
+  886  cd Worksheet3
+  887  touch ws3.txt
+  888  echo -e "## Task1:\n" >> ws3.txt 
+  889  cut -d',' -f2,7,15 Global\ YouTube\ Statistics.csv
+  890  cut -d',' -f2,8,16 Global\ YouTube\ Statistics.csv
+  891  man sort
+  892  man cut
+  893  man sed
+  894  grep ',United States,' Global\ YouTube\ Statistics.csv
+  895  grep -a ',United States,' Global\ YouTube\ Statistics.csv
+  896  man awk
+  897  sed '/!,United States,/ d' Global\ YouTube\ Statistics.csv
+  898  grep -a ',United States,' Global\ YouTube\ Statistics.csv | cut -d',' -f16
+  899  grep -a ',United States,' Global\ YouTube\ Statistics.csv | cut -d',' -f16 | sort -nr | head -n 1 >> ws3.txt
+  900  echo -e "The highest monthly earning is 920000\n\n" >> ws3.txt
+  901  grep -a ',United States,' Global\ YouTube\ Statistics.csv | awk -F, '$16 == 9200000' Global\ YouTube\ Statistics.csv >> ws3.txt
+  902  echo -e "\nThe highest monthly earner is DaFuq\!\?Boom\! in United States.\n\n\n" >> ws3.txt 
+  903  echo -e "1.2 Find country is United Kingdom:\n\noutput:" >> ws3.txt 
+  904  grep -a ',United Kingdom,' Global\ YouTube\ Statistics.csv | cut -d',' -f16 | sort -nr | head -n 1 >> ws3.txt
+  905  echo -e "The highest monthly earning is 2000000\n\noutput:" >> ws3.txt 
+  906  grep -a ',United Kingdom,' Global\ YouTube\ Statistics.csv | awk -F, '$16 == 2000000' >> ws3.txt
+  907  echo -e "\nThe highest monthly earner is Woody & Kleiny in United Kingdom.\n\n\n" >> ws3.txt 
+  908  echo -e "1.3 Find country is India:\n\noutput:" >> ws3.txt 
+  909  grep -a ',India,' Global\ YouTube\ Statistics.csv | cut -d',' -f16 | sort -nr | head -n 1 >> ws3.txt
+  910  echo -e "The highest monthly earning is 9000000\n\noutput:" >> ws3.txt 
+  911  grep -a ',India,' Global\ YouTube\ Statistics.csv | awk -F, '$16 == 9000000' >> ws3.txt
+  912  echo -e "\nThe highest monthly earner is T-Series in India.\n\n\n" >> ws3.txt
+  913  echo -e "## Task2:\n\n2.1 Find category is Sports:\n\noutput:" >> ws3.txt 
+  914  grep -a ',Sports,' Global\ YouTube\ Statistics.csv | cut -d',' -f3 | sort -nr | head -n 1 >> ws3.txt
+  915  echo -e "The highest subscribers number is 96000000\n\noutput:" >> ws3.txt 
+  916  grep -a ',Sports,' Global\ YouTube\ Statistics.csv | awk -F, '$3 == 96000000' >> ws3.txt
+  917  echo -e "\nThe highest subscribed channel title is WWE in Sports.\n\n\n" >> ws3.txt 
+  918  echo -e "2.2 Find category is Education:\n\noutput:" >> ws3.txt 
+  919  grep -a ',Education,' Global\ YouTube\ Statistics.csv | cut -d',' -f3 | sort -nr | head -n 1 >> ws3.txt
+  920  echo -e "The highest subscribers number is 162000000\n\noutput:" >> ws3.txt
+  921  grep -a ',Education,' Global\ YouTube\ Statistics.csv | awk -F, '$3 == 162000000' >> ws3.txt
+  922  echo -e "\nThe highest subscribed channel title is Cocomelon - Nursery Rhymes in Education.\n\n\n" >> ws3.txt
+  923  echo -e "2.3 Find category is Entertainment:\n\noutput:" >> ws3.txt
+  924  grep -a ',Entertainment,' Global\ YouTube\ Statistics.csv | cut -d',' -f3 | sort -nr | head -n 1 >> ws3.txt
+  925  echo -e "The highest subscribers number is 166000000\n\noutput:" >> ws3.txt
+  926  grep -a ',Entertainment,' Global\ YouTube\ Statistics.csv | awk -F, '$3 == 166000000' >> ws3.txt
+  927  echo -e "\nThe highest subscribed channel title is MrBeast in Entertainment.\n\n\n" >> ws3.txt
+  928  vi ws3.txt 
+  929  history | tail -n 150 > cmds.log
+  930  vi cmds.log 
+  931  ls -l
+  932  git status
+  933  git add ./
+  934  git status
+  935  git add ../cmds.log
+  936  git status
+  937  git commit -m "This is for Worksheet3"
+  938  git push origin master
+  939  cd ../
+  940  ls -l
+  941  git status
+  942  exit
+  943  who
+  944  ls 
+  945  cd practice
+  946  ls
+  947  awk 'BEGIN {i=i} i<4 {print; i++}' spotify-2023.csv 
+  948  awk '/[pP]ost Malone|Swift/' spotify-2023.csv 
+  949  ls ../practice2/
+  950  awk 'BEGIN {FS=","; OFS="\t"} {print $1, $2}' spotify-2023.csv 
+  951  awk '{print "Line" NR ":" $0}' spotify-2023.csv 
+  952  clear
+  953  awk 'END {print "Total number of records: " NR}' spotify-2023.csv 
+  954  awk '{print "Line" NR ":" $1}' spotify-2023.csv 
+  955  clear
+  956  cat awkscr_var-user-defined
+  957  awk 
+  958  awk 'BEGIN {FS=":"} {print $1, " uses ", $7}' /etc/passwd
+  959  awk 'BEGIN {FS=":"} {if (S7 == "usr/sbin/nologin") print $0}' /etc/passwd
+  960  clear
+  961  sed -n '/Swift/,/Weeknd/p' spotify-2023.csv 
+  962  clear
+  963  vi awkscr_while
+  964  awk -f awkscr_while -v num=5
+  965  vi awkscr_while 
+  966  awk -f awkscr_while -v num=5
+  967  clear
+  968  vi awkscr_while 
+  969  exit
+  970  who
+  971  cd practice
+  972  ls -l
+  973  vi awkscr_array-associative
+  974  awk -f awkscr_array-associative /etc/passwd
+  975  awk 'BEGIN {print sqrt(25)}'
+  976  awk 'BEGIN {print sqrt(24)}'
+  977  cat awkscr_array-associative 
+  978  awk -F : '{if(match($0, "bash")) print $1 " uses " $7}' /etc/passwd
+  979  clear
+  980  awk '{split($0, all, ":"); print all[1], " is known"}'
+  981  ls ../practice2
+  982  echo "sed is faster than awk" >> ../practice2/note.txt 
+  983  name="John"
+  984  echo "hello, i'm <name>." | sed "s/<name>/$name/"
+  985  echo "hello, i'm <name>." | sed 's/<name>/$name/'
+  986  echo "Hello, I'm <name>." | sed "s/<name>/$HOME/"
+  987  echo "Hello, I'm <name>." | sed "s|<name>|$HOME|"
+  988  echo "Hello, I'm <name>." | sed "s.<name>.$HOME."
+  989  echo "Hello, I'm <name>." | sed "s;<name>;$HOME;"
+  990  awk 'BEGIN {print 'howdy, folks'}'
+  991  awk "BEGIN {print 'howdy, folks'}"
+  992  awk "BEGIN {print HI}"
+  993  awk
+  994  clear
+  995  awk 'BEGIN {print"howdy, \nfolks"}'
+  996  awk -v PWD=$PWD "BEGIN {print PWD}"
+  997  sed 's/find/line/'
+  998  who
+  999  exit
+ 1000  ls 
+ 1001  cd cs131
+ 1002  ls
+ 1003  mkdir Worksheet4
+ 1004  script ws4.txt
+ 1005  ls
+ 1006  mv ws4.txt Worksheet4/
+ 1007  ls
+ 1008  ls Worksheet4
+ 1009  history | tail -n 150 > cmds.log
