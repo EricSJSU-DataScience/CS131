@@ -1,0 +1,77 @@
+  940  cd cs131
+  941  ls
+  942  makdir CS131ClassProject6
+  943  mkdir CS131ClassProject6
+  944  cs CS131ClassProject6/
+  945  cd CS131ClassProject6/
+  946  kaggle datasets download -d sriharshaeedala/financial-fraud-detection-dataset
+  947  pip show kaggle
+  948  pip install --user kaggle
+  949  pip3 install --user kaggle
+  950  kaggle datasets download -d sriharshaeedala/financial-fraud-detection-dataset
+  951  ls ~/.local/bin
+  952  ln -s ~/.local/bin/kaggle /usr/bin/kaggle
+  953  alias kaggle="~/.local/bin/kaggle"
+  954  bash
+  955  exit
+  956  cd cs131/CS131ClassProject6/
+  957  vi member.txt
+  958  gdown https://drive.google.com/file/d/1Ty9JXsCnEaWcbhrbfZ6e3aVGTcYO_D2a/view?usp=sharing
+  959  exit
+  960  cd cs131/CS131ClassProject6/
+  961  ls
+  962  wget "https://drive.google.com/uc?export=download&id=1Ty9JXsCnEaWcbhrbfZ6e3aVGTcYO_D2a"
+  963  ls
+  964  mv uc\?export\=download\&id\=1Ty9JXsCnEaWcbhrbfZ6e3aVGTcYO_D2a Financial_dataset_partial.csv
+  965  ls
+  966  wc -l Financial_dataset_partial.csv 
+  967  vi member.txt 
+ 
+
+ 1000  echo "Working on project commands"
+ 1001  ls -l
+ 1002  cd cs131
+ 1003  ls -l
+ 1004  cd CS131ClassProject6/
+ 1005  ls -l
+ 1006  wc -l Financial_dataset_partial.csv 
+ 1007  head -n 10 Financial_dataset_partial.csv 
+ 1008  head -n 100 Financial_dataset_partial.csv > dataset_preview.csv
+ 1009  head -n 10 Financial_dataset_partial.csv | column -t -s
+ 1010  head -n 10 Financial_dataset_partial.csv | column -t -s,
+ 1011  head -n 100 Financial_dataset_partial.csv | column -t -s, > dataset_preview.txt
+ 1012  vi dataset_preview.txt 
+ 1013  awk -F, 'NR > 1 && $10 == 1 {print}' Financial_dataset_partial.csv | wc -l
+ 1014  awk -F, 'NR > 1 && $10 == 0 {print}' Financial_dataset_partial.csv | wc -l
+ 1015  awk -F, 'NR > 1 && $10 == 1 {print}' Financial_dataset_partial.csv > dataset_fraud.txt
+ 1016  awk -F, 'NR > 1 && $10 == 0 {print}' Financial_dataset_partial.csv > dataset_nonfraud.txt
+ 1017  awk -F, 'NR > 1 && $10 == 0 {print}' Financial_dataset_partial.csv | awk -F, '{sum += $3}; {mean = sum / 1386}; END{print mean}'
+ 1018  awk -F, 'NR > 1 && $10 == 1 {print}' Financial_dataset_partial.csv | awk -F, '{sum += $3}; {mean = sum / 1386}; END{print mean}'
+ 1019  awk -F, 'NR > 1 && $10 == 0 {print}' Financial_dataset_partial.csv | awk -F, '{sum += $3}; {mean = sum / 1059049}; END{print mean}'
+ 1020  awk -F, 'NR > 1 && $10 == 1 {print}' Financial_dataset_partial.csv | awk -F, '{sum += $3}; END{print sum}'
+ 1021  awk -F, 'NR > 1 && $10 == 1 {print $5}' Financial_dataset_partial.csv > plot_fraud_oldbalanceOrg.txt
+ 1022  vi plot_fraud_oldbalanceOrg.txt 
+ 1023  awk -F, 'NR > 1 && $10 == 1 {print $6}' Financial_dataset_partial.csv > plot_fraud_newbalanceOrg.txt
+ 1024  awk -F, 'NR > 1 && $10 == 0 {print $5}' Financial_dataset_partial.csv > plot_nonfraud_oldbalanceOrg.txt
+ 1025  awk -F, 'NR > 1 && $10 == 0 {print $6}' Financial_dataset_partial.csv > plot_nonfraud_newbalanceOrg.txt
+ 1026  vi plot_nonfraud_oldbalanceOrg.txt 
+ 1027  awk -F, 'NR > 1 && $10 == 1 {print $3}' Financial_dataset_partial.csv > plot_fraud_amount.txt
+ 1028  awk -F, 'NR > 1 && $10 == 0 {print $3}' Financial_dataset_partial.csv > plot_nonfraud_amount.txt
+ 1029  git status
+ 1030  git add dataset_preview.csv 
+ 1031  git commit -m "update: preview the dataset"
+ 1032  git push origin master
+ 1033  git add plot_*
+ 1034  git status
+ 1035  git commit -m "update: information for plot"
+ 1036  git push origin master
+ 1037  rm dataset_preview.txt
+ 1038  git status
+ 1039  git add dataset_fraud.txt 
+ 1040  git commit -m "update: fraud information"
+ 1041  git push origin master
+ 1042  git add dataset_nonfraud.txt 
+ 1043  git commit -m "update: nonfraud information"
+ 1044  git push origin master
+ 1045  git status
+ 1046  history | tail -n 150 > cmds.log
