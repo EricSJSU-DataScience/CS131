@@ -1,0 +1,24 @@
+  Worksheet 5
+
+ 1000  cd cs131/Worksheet5/
+ 1001  ls -l
+ 1002  vi ws5_script.sh
+ 1003  chmod u+x ws5_script.sh 
+ 1004  ls -l
+ 1005  ./ws5_script.sh 
+ 1006  ls -l
+ 1007  vi ws5.txt
+ 1008  ls -l United\ States/
+ 1009  vi United\ States/temp.txt 
+ 1010  vi ws5_script.sh 
+ 1011  ./ws5_script.sh 
+ 1012  ls -l United\ States/
+ 1013  vi ws5_script.sh 
+ 1014  ./ws5_script.sh 
+ 1015  ls -l United\ States/
+ 1016  rm United\ States/music.txt
+ 1017  rm United\ States/temp.txt 
+ 1018  ls -l United\ States/
+ 1019  cat ws5.txt
+ 1020  vi ws5.txt 
+ 1021  history | tail -n 50 > cmds.log
